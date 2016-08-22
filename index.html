@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html ng-app="brewApp">
 <head>
-	<title>Brew Place</title>
+	<title>Brew.Place</title>
 
+	<!-- include bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+	<!-- include angularJS -->
 	<script type="text/javascript" src="js/angular.min.js"></script>
+	<!-- include angular animate -->
+	<script type="text/javascript" src="js/angular-animate.min.js"></script>
+	<!-- include UI bootstrap -->
+	<script type="text/javascript" src="js/ui-bootstrap-tpls-2.1.2.min.js"></script>
+
+	<!-- include brewery list -->
 	<script type="text/javascript" src="js/atl-breweries.js"></script>
-	<script type="text/javascript" src="js/o-dempseys-beers.js"></script>
-	<script type="text/javascript" src="js/red-brick-beers.js"></script>
-	<script type="text/javascript" src="js/pontoon-beers.js"></script>
-	<script type="text/javascript" src="js/max-lagers-beers.js"></script>
-	<script type="text/javascript" src="js/torched-beers.js"></script>
-	<script type="text/javascript" src="js/monday-night-beers.js"></script>
-	<script type="text/javascript" src="js/atl-brewing-co-beers.js"></script>
-	<script type="text/javascript" src="js/park-tavern-beers.js"></script>
-	<script type="text/javascript" src="js/sweetwater-beers.js"></script>
-	<script type="text/javascript" src="js/orpheus-beers.js"></script>
-	<script type="text/javascript" src="js/second-self-beers.js"></script>
-	<script type="text/javascript" src="js/eventide-beers.js"></script>
-	<script type="text/javascript" src="js/new-river-beers.js"></script>
-	<script type="text/javascript" src="js/scofflaw-beers.js"></script>
-	<script type="text/javascript" src="js/wrecking-bar-beers.js"></script>
-	<script type="text/javascript" src="js/five-seasons-beers.js"></script>
+	<!-- include beers list -->
+	<script type="text/javascript" src="js/beers-master.js"></script>
+	<!-- include custom scripts -->
 	<script type="text/javascript" src="js/scripts.js"></script>
 
 </head>
@@ -33,19 +29,12 @@
 		<div>
 			<form ng-submit="breweriesByCity(cityName)">
 				<input type="text" ng-model="cityName" placeholder="Search a city" />
-				<input type="submit" value="Search" />
+				<input type="submit" value="Search" class="btn btn-primary"/>
 			</form>
 		</div>
 
-
 		<div ng-repeat="brewery in breweries">
-			{{brewery.brewery.name}}
-			<button type="button" class="btn btn-default">Button</button>
-		</div>
-
-
-		<div ng-repeat="beer in beers">
-			{{beer.name}}
+			{{brewery.name}}
 		</div>
 
 	</div>

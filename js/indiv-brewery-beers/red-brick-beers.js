@@ -1,7 +1,6 @@
-var redBrickBeers = [
-	{
-		"message": "Request Successful",
-		"data": [
+var redBrickBeers = [];
+
+var redBrickBeerData = [
 			{
 				"id": "s95tMN",
 				"name": "17 Anniversary",
@@ -1656,7 +1655,40 @@ var redBrickBeers = [
 					"updateDate": "2015-04-07 15:28:58"
 				}
 			}
-		],
-		"status": "success"
+		];
+
+function createBeerList(beerArray, brewery, targetArray){
+	for (var i = 0; i < beerArray.length; i++){
+		var beer = beerArray[i];
+
+		var label = '';
+		if(beer.labels){
+			label = beer.labels.large;
+		}else{
+			label = 'N/A';
+		}
+
+		var abv = 0;
+		if(beer.abv){
+			abv = beer.abv;
+		}else{
+			abv = 'N/A';
+		}
+
+		var temp = new Beer(beer.name, beer.style.name, beer.description, label, abv, brewery);
+		targetArray.push(temp);
 	}
-];
+}
+	
+function Beer(name, style, description, label, abv, brewery){
+	this.name = name;
+	this.style = style;
+	this.description = description;
+	this.label = label;
+	this.abv = abv;
+	this.brewery = brewery;
+}
+
+createBeerList(redBrickBeerData, 'Red Brick', redBrickBeers);
+
+console.log(redBrickBeers);

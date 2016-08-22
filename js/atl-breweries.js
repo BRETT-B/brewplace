@@ -1,4 +1,6 @@
-var atlBreweries = [
+var atlBreweries = [];
+
+var atlBreweryData = [
 	{
 		"id": "jU8dfs",
 		"name": "Main Brewery",
@@ -200,47 +202,6 @@ var atlBreweries = [
 		}
 	},
 	{
-		"id": "xykQG9",
-		"name": "Main Brewery",
-		"streetAddress": "249 Ponce De Leon Ave NE",
-		"locality": "Atlanta",
-		"region": "GA",
-		"postalCode": "30308",
-		"website": "http://www.torchedhopbrewing.com",
-		"latitude": 33.772263,
-		"longitude": -84.379285,
-		"isPrimary": "N",
-		"inPlanning": "N",
-		"isClosed": "N",
-		"openToPublic": "Y",
-		"locationType": "brewpub",
-		"locationTypeDisplay": "Brewpub",
-		"countryIsoCode": "US",
-		"status": "new_unverified",
-		"statusDisplay": "New, Unverified",
-		"createDate": "2016-07-09 17:53:04",
-		"updateDate": "2016-07-09 17:53:04",
-		"breweryId": "iKnmhB",
-		"brewery": {
-			"id": "iKnmhB",
-			"name": "Torched brewery",
-			"nameShortDisplay": "Torched",
-			"isOrganic": "N",
-			"status": "new_unverified",
-			"statusDisplay": "New, Unverified",
-			"createDate": "2016-07-09 17:53:03",
-			"updateDate": "2016-07-09 17:53:03"
-		},
-		"country": {
-			"isoCode": "US",
-			"name": "UNITED STATES",
-			"displayName": "United States",
-			"isoThree": "USA",
-			"numberCode": 840,
-			"createDate": "2012-01-03 02:41:33"
-		}
-	},
-	{
 		"id": "pGgCWL",
 		"name": "Main Brewery",
 		"streetAddress": "670 Trabert Ave",
@@ -284,49 +245,6 @@ var atlBreweries = [
 			"statusDisplay": "Verified",
 			"createDate": "2012-01-03 02:42:02",
 			"updateDate": "2015-12-22 15:21:17"
-		},
-		"country": {
-			"isoCode": "US",
-			"name": "UNITED STATES",
-			"displayName": "United States",
-			"isoThree": "USA",
-			"numberCode": 840,
-			"createDate": "2012-01-03 02:41:33"
-		}
-	},
-	{
-		"id": "17tUiZ",
-		"name": "Main Brewery",
-		"streetAddress": "2323 Defoor Hills Rd NW",
-		"locality": "Atlanta",
-		"region": "Georgia",
-		"postalCode": "30318",
-		"phone": "404-355-5558",
-		"website": "http://www.atlantabrewing.com/",
-		"latitude": 33.818002,
-		"longitude": -84.435253,
-		"isPrimary": "Y",
-		"inPlanning": "N",
-		"isClosed": "N",
-		"openToPublic": "Y",
-		"locationType": "micro",
-		"locationTypeDisplay": "Micro Brewery",
-		"countryIsoCode": "US",
-		"status": "verified",
-		"statusDisplay": "Verified",
-		"createDate": "2012-01-03 02:41:44",
-		"updateDate": "2014-07-23 19:11:34",
-		"breweryId": "NB1gDW",
-		"brewery": {
-			"id": "NB1gDW",
-			"name": "Atlanta Brewing Company",
-			"nameShortDisplay": "Atlanta",
-			"website": "http://www.atlantabrewing.com/",
-			"isOrganic": "N",
-			"status": "verified",
-			"statusDisplay": "Verified",
-			"createDate": "2012-01-03 02:41:44",
-			"updateDate": "2015-12-22 14:38:52"
 		},
 		"country": {
 			"isoCode": "US",
@@ -588,93 +506,6 @@ var atlBreweries = [
 		}
 	},
 	{
-		"id": "IqtQfq",
-		"name": "Main Brewery",
-		"streetAddress": "2015 Afond Court",
-		"locality": "Atlanta",
-		"region": "Georgia",
-		"postalCode": "30341",
-		"phone": "770-841-2953",
-		"latitude": 33.908748,
-		"longitude": -84.305374,
-		"isPrimary": "Y",
-		"inPlanning": "N",
-		"isClosed": "Y",
-		"openToPublic": "Y",
-		"locationType": "micro",
-		"locationTypeDisplay": "Micro Brewery",
-		"countryIsoCode": "US",
-		"status": "verified",
-		"statusDisplay": "Verified",
-		"createDate": "2012-01-03 02:42:03",
-		"updateDate": "2014-07-23 19:11:34",
-		"breweryId": "n9xIKr",
-		"brewery": {
-			"id": "n9xIKr",
-			"name": "New River Brewing",
-			"nameShortDisplay": "New River",
-			"isOrganic": "N",
-			"status": "verified",
-			"statusDisplay": "Verified",
-			"createDate": "2012-01-03 02:42:03",
-			"updateDate": "2015-12-22 14:53:12"
-		},
-		"country": {
-			"isoCode": "US",
-			"name": "UNITED STATES",
-			"displayName": "United States",
-			"isoThree": "USA",
-			"numberCode": 840,
-			"createDate": "2012-01-03 02:41:33"
-		}
-	},
-	{
-		"id": "AHs0V4",
-		"name": "Main Brewery",
-		"locality": "Atlanta",
-		"region": "Georgia",
-		"latitude": 33.7489954,
-		"longitude": -84.3879824,
-		"isPrimary": "Y",
-		"inPlanning": "N",
-		"isClosed": "N",
-		"openToPublic": "Y",
-		"locationType": "micro",
-		"locationTypeDisplay": "Micro Brewery",
-		"countryIsoCode": "US",
-		"status": "verified",
-		"statusDisplay": "Verified",
-		"createDate": "2016-08-15 20:14:34",
-		"updateDate": "2016-08-15 20:14:34",
-		"breweryId": "2Mvvfw",
-		"brewery": {
-			"id": "2Mvvfw",
-			"name": "Scofflaw Brewing Company",
-			"nameShortDisplay": "Scofflaw",
-			"description": "Scofflaw Brewing Co. and the information included on this page continue to be a work-in-process. This project has been more than two years in the making. Although the process moves VERY slowly, we will, for those, if any, interested person, continue to update the Page Info section as the project progresses. We will also use this page as a means of documenting our progress towards our goals.",
-			"isOrganic": "N",
-			"images": {
-				"icon": "https://s3.amazonaws.com/brewerydbapi/brewery/2Mvvfw/upload_JOA4Vb-icon.png",
-				"medium": "https://s3.amazonaws.com/brewerydbapi/brewery/2Mvvfw/upload_JOA4Vb-medium.png",
-				"large": "https://s3.amazonaws.com/brewerydbapi/brewery/2Mvvfw/upload_JOA4Vb-large.png",
-				"squareMedium": "https://s3.amazonaws.com/brewerydbapi/brewery/2Mvvfw/upload_JOA4Vb-squareMedium.png",
-				"squareLarge": "https://s3.amazonaws.com/brewerydbapi/brewery/2Mvvfw/upload_JOA4Vb-squareLarge.png"
-			},
-			"status": "verified",
-			"statusDisplay": "Verified",
-			"createDate": "2016-08-15 20:10:10",
-			"updateDate": "2016-08-15 20:10:11"
-		},
-		"country": {
-			"isoCode": "US",
-			"name": "UNITED STATES",
-			"displayName": "United States",
-			"isoThree": "USA",
-			"numberCode": 840,
-			"createDate": "2012-01-03 02:41:33"
-		}
-	},
-	{
 		"id": "eGtqKZ",
 		"name": "Main Brewpub",
 		"streetAddress": "292 Moreland Avenue NE",
@@ -781,3 +612,50 @@ var atlBreweries = [
 		}
 	}
 ];
+
+function createBreweryList(breweryArray, targetArray){
+	for (var i = 0; i < breweryArray.length; i++){
+		var brewery = breweryArray[i];
+
+		var id = brewery.id;
+		var name = brewery.brewery.name;
+		var lat = brewery.latitude;
+		var lon = brewery.longitude;
+		var streetAdd = ''
+			if(brewery.streetAddress){
+				streetAdd = brewery.streetAddress;
+			}else{
+				streetAdd = 'N/A';
+			}
+		var city = brewery.locality;
+		var state = brewery.region;
+		var zip = brewery.postalCode;
+		var website = brewery.brewery.website;
+		var logo = '';
+			if(brewery.brewery.images){
+				logo = brewery.brewery.images.squareMedium;
+			}else{
+				logo = 'N/A';
+			}
+
+		var temp = new Brewery(id, name, lat, lon, streetAdd, city, state, zip, website, logo);
+		targetArray.push(temp);
+	}
+}
+	
+function Brewery(id, name, lat, lon, streetAdd, city, state, zip, website, logo){
+	this.id = id;
+	this.name = name;
+	this.latitude = lat;
+	this.longitude = lon;
+	this.streetAddress = streetAdd;
+	this.city = city;
+	this.state = state;
+	this.zipCode = zip;
+	this.website = website;
+	this.logo = logo;
+}
+
+createBreweryList(atlBreweryData, atlBreweries);
+
+// console.log(atlBreweries);

@@ -1,7 +1,6 @@
-var fiveSeasonsBeers = [
-	{
-		"message": "Request Successful",
-		"data": [
+var fiveSeasonsBeers = [];
+
+var fiveSeasonsBeerData = [
 			{
 				"id": "W28hWM",
 				"name": "10W-30 Imperial Oatmeal Stout",
@@ -1973,7 +1972,40 @@ var fiveSeasonsBeers = [
 					"updateDate": "2015-04-07 15:31:45"
 				}
 			}
-		],
-		"status": "success"
+		];
+
+function createBeerList(beerArray, brewery, targetArray){
+	for (var i = 0; i < beerArray.length; i++){
+		var beer = beerArray[i];
+
+		var label = '';
+		if(beer.labels){
+			label = beer.labels.large;
+		}else{
+			label = 'N/A';
+		}
+
+		var abv = 0;
+		if(beer.abv){
+			abv = beer.abv;
+		}else{
+			abv = 'N/A';
+		}
+
+		var temp = new Beer(beer.name, beer.style.name, beer.description, label, abv, brewery);
+		targetArray.push(temp);
 	}
-];
+}
+	
+function Beer(name, style, description, label, abv, brewery){
+	this.name = name;
+	this.style = style;
+	this.description = description;
+	this.label = label;
+	this.abv = abv;
+	this.brewery = brewery;
+}
+
+createBeerList(fiveSeasonsBeerData, '5 Seasons', fiveSeasonsBeers);
+
+console.log(fiveSeasonsBeers);

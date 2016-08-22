@@ -1,14 +1,11 @@
-var brewApp = angular.module('brewApp', []);
+var brewApp = angular.module('brewApp', ['ui.bootstrap']);
 
-brewApp.controller('brewController', function($scope, $http){
+brewApp.controller('brewController', function($scope){
 
-	console.log(atlBreweries[0].data);
-	$scope.breweries = atlBreweries[0].data;
+	$scope.breweries = atlBreweries;
 
-	console.log(fiveSeasonsBeers[0].data);
-	$scope.beers = fiveSeasonsBeers[0].data;
+});
 
-	// need to handle case where a brewery has no beers listed
 
 	// $scope.breweriesByCity = function(city){
 	// 	var cityURL = 'http://api.brewerydb.com/v2/locations?key=b96c391074e29a0289645cf3874e6831&locality=' + city;
@@ -24,5 +21,3 @@ brewApp.controller('brewController', function($scope, $http){
 	// 			console.log(cityData);
 	// 	});
 	// }
-
-});
