@@ -1,6 +1,6 @@
 brewApp.config(function($routeProvider) {
 	$routeProvider.when('/', {
-		templateUrl: 'verify.html',
+		templateUrl: 'verifyView.html',
 		controller: 'verifyController'
 	})
 	.when('/menu', {
