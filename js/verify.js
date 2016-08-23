@@ -22,6 +22,11 @@ pauseButton.addEventListener("click", function() {
     pauseButton.innerHTML = "Beer Me";
   }
 })
-function verifyAge() {
-	var month
-}
+$(document).ready(function() {
+	function verifyAge() {
+		var month = $('#month').val();
+		var day = $('#day').val();
+		var year = $('#year').val();
+		var dob = 
+	}
+});
