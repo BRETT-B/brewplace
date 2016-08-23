@@ -1,5 +1,18 @@
-brewApp.controller('breweryController', function($scope){
+brewApp.controller('breweryController', function($scope, $modalService){
 	$scope.breweries = atlBreweries;
+	$scope.fiveSeasonsBeers = fiveSeasonsBeers;
+	$scope.maxLagersBeers = maxLagersBeers;
+	$scope.mondayNightBeers = mondayNightBeers;
+	$scope.oDempseysBeers = oDempseysBeers;
+	$scope.orpheusBeers = orpheusBeers;
+	$scope.parkTavernBeers = parkTavernBeers;
+	$scope.pontoonBeers = pontoonBeers;
+	$scope.redBrickBeers = redBrickBeers;
+	$scope.secondSelfBeers = secondSelfBeers;
+	$scope.sweetWaterBeers = sweetWaterBeers;
+	$scope.wreckingBarBeers = wreckingBarBeers;
+	$scope.eventideBeers = eventideBeers;
+
 });
 
 // 	$scope.breweriesByCity = function(city){
