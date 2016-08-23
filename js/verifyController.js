@@ -1,4 +1,4 @@
-brewApp.controller('verifyController', function($scope) {
+brewApp.controller('verifyController', function($location, $scope) {
 
     $scope.pauseBtn = 'Pause Video';
 
@@ -36,13 +36,10 @@ brewApp.controller('verifyController', function($scope) {
         var currentDate = new Date();
         currentDate.setFullYear(currentDate.getFullYear() - age);
         
-        if(isNaN(currentDate)) {
-            $scope.dateNotValid = true;
-        }
-        else if((currentDate - d) < 0) {
+        if((currentDate - d) < 0) {
             $scope.ageNotValid = true;
         } else {
-            return true;
+            $location.path('/menu');
         }
     };
 });
