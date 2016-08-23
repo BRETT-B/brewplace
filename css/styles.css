@@ -96,6 +96,12 @@ h1 {
 #logo {
   margin-top: 5%;
 }
-span {
-  display: none;
-  }
+#validate {
+  visibility: hidden;
+}
+#dobSubmit button {
+  border: 1px solid black;
+}
+#dobSubmit button:hover {
+  border: 2px solid black;
+}
