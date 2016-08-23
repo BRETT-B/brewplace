@@ -10,6 +10,8 @@
   <script type="text/javascript" src="js/angular.min.js"></script>
   <!-- include angular animate -->
   <script type="text/javascript" src="js/angular-animate.min.js"></script>
+  <!-- include ngRoute -->
+  <script type="text/javascript" src="js/angular-route.min.js"></script>
   <!-- include UI bootstrap -->
   <script type="text/javascript" src="js/ui-bootstrap-tpls-2.1.2.min.js"></script>
 
@@ -18,26 +20,15 @@
   <!-- include beers list -->
   <script type="text/javascript" src="js/beers-master.js"></script>
   <!-- include custom scripts -->
-  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/brewApp.module.js"></script>
+  <script type="text/javascript" src="js/brewApp.config.js"></script>
+  <script type="text/javascript" src="js/menuController.js"></script>
 
 </head>
 
-<body ng-controller="brewController">
+<body>
 
-  <div class="container">
-
-    <div>
-      <form ng-submit="breweriesByCity(cityName)">
-        <input type="text" ng-model="cityName" placeholder="Search a city" />
-        <input type="submit" value="Search" class="btn btn-primary"/>
-      </form>
-    </div>
-
-    <div ng-repeat="brewery in breweries">
-      {{brewery.name}}
-    </div>
-
-  </div>
+<div ng-view></div>
 
 </body>
 </html>
