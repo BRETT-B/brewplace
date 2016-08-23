@@ -2,19 +2,15 @@ brewApp.controller('verifyController', function($location, $scope) {
 
     $scope.pauseBtn = 'Pause Video';
 
-    var video = document.getElementById("background-video");
-
-    function videoFade() {
-        video.classList.add('fade');
-    }
+    var video = document.getElementById('background-video');
 
     video.addEventListener('ended', function() {
         video.pause();
-        videoFade();
-    }); 
+        $scope.fade = true;
+    });
 
     $scope.pauseClick = function() {
-        video.classList.toggle('fade');
+        $scope.fade = !$scope.fade;
 
         if (video.paused) {
             $scope.pauseBtn = 'Pause Video';

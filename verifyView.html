@@ -1,6 +1,6 @@
 <div ng-controller="verifyController">
 
-  <video poster="images/background.png" id="background-video" playsinline autoplay muted>
+  <video poster="images/background.png" id="background-video" ng-class="{ 'fade': fade }" playsinline autoplay muted>
     <source src="video/beer-background.mp4" type="video/mp4">
   </video>
 
