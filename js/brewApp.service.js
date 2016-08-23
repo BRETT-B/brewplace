@@ -12,7 +12,7 @@ brewApp.service('modalService', ['$modal',
             nameText: '',
             styleText: '',
             abvText: '',
-            labelImg: '<img src="">',
+            labelImg: '',
             descriptionText: ''
         };
         this.showModal = function (customModalDefaults, customModalOptions) {
