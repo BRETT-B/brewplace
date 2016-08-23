@@ -4,6 +4,7 @@ brewApp.controller('brewController', function($scope){
 
 	$scope.breweries = atlBreweries;
 
+<<<<<<< HEAD
 });
 
 
@@ -21,3 +22,21 @@ brewApp.controller('brewController', function($scope){
 	// 			console.log(cityData);
 	// 	});
 	// }
+=======
+	$scope.breweriesByCity = function(city){
+		var cityURL = 'http://api.brewerydb.com/v2/locations?locality='+encodeURI(city)+'&key=b96c391074e29a0289645cf3874e6831';
+		console.log(cityURL);
+		$http({
+			method: 'GET',
+			url: cityURL
+		}).then(
+			function successFunction(cityData){
+				console.log(cityData.data);
+				$scope.breweries = cityData;
+			},function failureFunction(cityData){
+				console.log(cityData);
+		});
+	}
+
+});
+>>>>>>> 76da8092a36157bd26f9c387b7e0ec3b5107c0a2
