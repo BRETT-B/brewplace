@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html ng-app="brewApp">
 <head>
-	<title>Brew Place</title>
+  <title>Brew.Place</title>
 
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
+  <!-- include bootstrap css -->
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+  <!-- include angularJS -->
+  <script type="text/javascript" src="js/angular.min.js"></script>
+  <!-- include angular animate -->
+  <script type="text/javascript" src="js/angular-animate.min.js"></script>
+  <!-- include UI bootstrap -->
+  <script type="text/javascript" src="js/ui-bootstrap-tpls-2.1.2.min.js"></script>
+
+  <!-- include brewery list -->
+  <script type="text/javascript" src="js/atl-breweries.js"></script>
+  <!-- include beers list -->
+  <script type="text/javascript" src="js/beers-master.js"></script>
+  <!-- include custom scripts -->
+  <script type="text/javascript" src="js/scripts.js"></script>
 
 </head>
 
 <body ng-controller="brewController">
-	<div>
-		<form ng-submit="breweriesByCity(cityName)">
-			<input type="text" ng-model="cityName" placeholder="Search a city" />
-			<input type="submit" value="Search" />
-		</form>
-	</div>
 
-	<div>
-		{{cityName}}
-	</div>
+  <div class="container">
+
+    <div>
+      <form ng-submit="breweriesByCity(cityName)">
+        <input type="text" ng-model="cityName" placeholder="Search a city" />
+        <input type="submit" value="Search" class="btn btn-primary"/>
+      </form>
+    </div>
+
+    <div ng-repeat="brewery in breweries">
+      {{brewery.name}}
+    </div>
+
+  </div>
+
 </body>
 </html>
