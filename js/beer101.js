@@ -1,7 +1,7 @@
 /*====================================
 		JSON For Definitions
 ====================================*/
-$scope.definitions = [{
+var definitions = [{
         term: "Beer",
         defined: "Name given alcohol-containing beverages produced by fermenting grain, specifically malt, and flavored with hops.",
         example: "Old-Style (Official Beer of the Chicago Cubs)"
@@ -54,7 +54,7 @@ $scope.definitions = [{
     		JSON For Beer Styles
     ====================================*/
 
-$scope.ales = [{ 
+var ales = [{ 
     style: "Stout",
     description: "As mysterious as they look, stouts are typically dark brown to pitch black in color. A common profile amongst Stouts, but not in all cases, is the use of roasted barley (unmalted barley that is kilned to the point of being charred) which lends a dry character to the beer as well as a huge roasted flavor that can range from burnt to coffee to chocolate. A different balance of hops is up to the brewers preference, but the roasted character must be there.",
     example: "Guiness"
@@ -104,7 +104,7 @@ $scope.ales = [{
     example: "Blue Moon Belgian White"
 }];
 
-$scope.lagers = [{
+var lagers = [{
     style: "Light Lager",
     description: "The Light Lager is generally a lighter version of a breweries premium lager, some are lower in alcohol but all are lower in calories and carbohydrates compared to other beers. Typically a high amount of cereal adjuncts like rice or corn are used to help lighten the beer as much as possible. Very low in malt flavor with a light and dry body. The hop character is low and should only balance with no signs of flavor or aroma. European versions are about half the alcohol (2.5-3.5% abv) as their regular beer yet show more flavor (some use 100% malt) then the American counterparts. For the most part this style has the least amount of flavor than any other style of beer.",
     example: "Bud Light"

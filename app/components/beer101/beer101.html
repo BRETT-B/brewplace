@@ -1,0 +1,27 @@
+<h1>Beer 101</h1>
+	<h2>Definitions</h2>
+		<ul>
+		    <li ng-repeat="define in definitions">
+		    Term: {{define.term}}
+		    Definition: {{define.defined}}
+		    Example: {{define.example}}
+		    </li>
+		</ul>
+
+	<h2>Beer Styles</h2>
+		<h3>Ales</h3>
+			<ul>
+			    <li ng-repeat="ale in ales">
+			    Style: {{ale.style}}
+			    Description: {{ale.description}}
+			    Example: {{ale.example}}
+			    </li>
+			</ul>
+		<h3>Lagers</h3>
+			<ul>
+			    <li ng-repeat="lager in lagers">
+			    Style: {{lager.style}}
+			    Description: {{lager.description}}
+			    Example: {{lager.example}}
+			    </li>
+			</ul>
