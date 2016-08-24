@@ -30,13 +30,16 @@
           		<!-- Dummy page content that makes as much sense as Lorem Ipsum -->
           <h1 class="text-center">Brew the Brewery Brew Bag</h1>
 
-            <div class="coozy" ng-show="isMenuOpen == true">
-			    <ul>
-			      <li ng-repeat="beer in beers" class="breweryName" ng-click="openModal($index)">{{beer.name}}</li>
-			    </ul> 
-  			</div>
 
-          <p class="lead text-center">Here's a template for some crap.</p>
+           
+
+          <div class="coozy">
+  			   <ul>
+  			      <li ng-repeat="beer in beers" class="breweryName" ng-click="openModal($index)">{{beer.name}}</li>
+  			     </ul> 
+  			   </div>
+
+
         </div> <!-- kill #site-canvas --> 
   </div> <!-- kill #site-wrapper> -->
 

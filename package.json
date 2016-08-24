@@ -1,0 +1,26 @@
+{
+  "name": "brewplace",
+  "version": "1.0.0",
+  "description": "Our app should....",
+  "main": "server.js",
+  "dependencies": {
+    "angular-images-loaded": "^0.2.4",
+    "connect": "^3.4.1",
+    "serve-static": "^1.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRETT-B/brewplace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BRETT-B/brewplace/issues"
+  },
+  "homepage": "https://github.com/BRETT-B/brewplace#readme"
+}
