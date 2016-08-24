@@ -1,5 +1,9 @@
 brewApp.controller('breweryController', function($scope, $uibModal, modalFactory){
 	$scope.breweries = atlBreweries;
+
+	// $scope.$watch('faves', function(){
+	// 	$scope.faves = faves;
+	// });
 	
 	$scope.chooseBrewery = function(index) {
 		console.log(index)
