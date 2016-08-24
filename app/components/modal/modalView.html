@@ -1,18 +1,20 @@
 <div class="modal-header">
 	<h2>{{options.brewery}}</h2>
-	<h3>{{options.name}}</h3>
-	<h4>ABV: {{options.abv}}</h4>
 </div>
 <div class="modal-label">
-	<!-- <img ng-src="{{modalOptions.labelImg}}"> -->
+	<img class="modal-img" ng-src="{{options.label}}">
 </div>
 <div class="modal-body">
-	<!-- <p>{{modalOptions.descriptionText}}</p> -->
+	<h3>{{options.name}}</h3>
+	<h5>Style: {{options.style}}</h5>
+	<h5>ABV: {{options.abv}}</h5>
 </div>
 <div class="modal-footer">
-  <!-- <button type="button" class="btn" 
-          data-ng-click="modalOptions.dislike()">{{modalOptions.jeersButtonText}}</button>
-  <button class="btn btn-primary" 
-          data-ng-click="modalOptions.like()">{{modalOptions.cheersButtonText}}</button> -->
+  	<button type="button" class="btn btn-success" 
+          data-ng-click="option.like()">Cheers</button>
+	
+	<button class="btn btn-warning" 
+          data-ng-click="option.dislike()">Jeers</button>
+	
 	<button class="btn btn-info" ng-click="close()">Close</button>
 </div>
