@@ -13,14 +13,17 @@ brewApp.controller('modalController', function ($scope, $uibModalInstance, param
 	};
 
 	$scope.addBeer = function() {
-		faves.push($scope.options);
-		$scope.faves = faves;
+		var index = faves.indexOf($scope.options);
+		if (index === -1) {
+			faves.push($scope.options);
+		}
 	}
 
 	$scope.removeBeer = function() {
 		var index = faves.indexOf($scope.options);
-		faves.splice(index, 1);
-		$scope.faves = faves;
+		if (index > -1) {
+			faves.splice(index, 1);
+		}
 	}
 
 });

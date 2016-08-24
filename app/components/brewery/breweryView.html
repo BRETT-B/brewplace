@@ -31,9 +31,19 @@
           <h1 class="text-center">Brew the Brewery Brew Bag</h1>
           <!--ngRepeat to populate list of beers. On click opens modal with specific beer info-->
           <div class="coozy">
-  			   <ul>
+            <h2>{{chosenBrewery}}</h2>
+  			     <ul>
   			      <li ng-repeat="beer in beers" class="breweryName" ng-click="openModal($index)">{{beer.name}}</li>
-  			     </ul> 
+  			     </ul>
+
+            <hr />
+            
+            <div class="faves">
+              <h2>Favorite Beers</h2>
+              <ul>
+                <li ng-repeat="fave in faves track by $index">{{fave.name}}</li>
+              </ul>
+            </div>
   			   </div>
 
 
