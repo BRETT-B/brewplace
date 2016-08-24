@@ -7,7 +7,7 @@ brewApp.config(function($routeProvider) {
 		templateUrl: 'app/components/brewery/breweryView.html',
 		controller: 'breweryController'
 	})
-	.when('/beer101' {
+	.when('/beer101', {
 		templateUrl: 'app/components/beer101/beer101.html',
 		controller: 'beer101Controller'
 	})
