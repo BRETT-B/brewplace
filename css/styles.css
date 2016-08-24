@@ -99,12 +99,19 @@ h1 {
 #logo {
   margin-top: 5%;
 }
-#form-submit button{
+#form-submit{
+  position: relative;
+  margin: auto;
   border: 1px solid black;
+  border-radius: 4px;
+  font-size: 20px;
+  background: #FEF8A5;
+  width: 100px;
 
 }
-#form-submit button:hover {
-  border: 2px solid black;
+#form-submit:hover {
+  color: #FFF;
+  background: transparent;
 }
 
 .breweryName {

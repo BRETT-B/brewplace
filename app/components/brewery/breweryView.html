@@ -23,12 +23,10 @@
 				<hr>
 
           </div>
-          		<!-- Creates the little button with the approprate moniker: menu. -->
+          	<!-- Creates the little button with the approprate moniker: menu. -->
           <div class="navbar-header" ng-show="isMenuOpen == false">
-            <a href="" class="toggle-nav btn btn-lg" ng-click="toggleMenu()"><i class="fa fa-bars"></i> Menu</a> 
-          </div>   
-          		<!-- Dummy page content that makes as much sense as Lorem Ipsum -->
-          <h1 class="text-center">Brew the Brewery Brew Bag</h1>
+            <a id="menu-btn" class="toggle-nav btn btn-lg" ng-href="" ng-click="toggleMenu()"><i class="fa fa-bars"></i>Menu</a> 
+          </div>  
           <!--ngRepeat to populate list of beers. On click opens modal with specific beer info-->
           <div class="coozy">
             <h2>{{chosenBrewery}}</h2>
