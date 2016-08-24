@@ -3,11 +3,7 @@ brewApp.config(function($routeProvider) {
 		templateUrl: 'app/components/verify/verifyView.html',
 		controller: 'verifyController'
 	})
-	.when('/menu', {
-		templateUrl: 'app/components/menu/menuView.html',
-		controller: 'menuController'
-	})
-	.when('/brew/:option', {
+	.when('/brew', {
 		templateUrl: 'app/components/brewery/breweryView.html',
 		controller: 'breweryController'
 	})

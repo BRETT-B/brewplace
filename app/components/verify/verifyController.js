@@ -35,7 +35,7 @@ brewApp.controller('verifyController', function($location, $scope) {
         if((currentDate - d) < 0) {
             $scope.ageNotValid = true;
         } else {
-            $location.path('/menu');
+            $location.path('/brew');
         }
     };
 });

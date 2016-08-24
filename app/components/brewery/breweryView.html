@@ -1,33 +1,52 @@
-<div class="container" ng-controller="breweryController">
-	<!-- site-wrapper for the page view -->
-<div id="site-wrapper" off-canvas-menu ng-class="{'show-nav':isMenuOpen}">
-			<!-- site-canvas for the runway -->
+<div ng-controller="breweryController">
+  
+  <div class="container">
+    <ul>
+      <li ng-repeat="beer in beers" class="breweryName" ng-click="openModal($index)">{{beer.name}}</li>
+    </ul> 
+  </div>
+	
+  <!-- site-wrapper for the page view -->
+  <div id="site-wrapper" off-canvas-menu ng-class="{ 'show-nav' : isMenuOpen }">
+  		<!-- site-canvas for the runway -->
         <div id="site-canvas">
         		<!-- The menu lives here -->
           <div id="site-menu">
-            <a href="#" class="toggle-nav" ng-click="toggleMenu()">
+            <a href="" class="toggle-nav" ng-click="toggleMenu()">
               <i class="fa fa-times"></i>
             </a>
             <h2>ATL Breweries</h2>
               	<!-- Populates the brewery links -->
               <ul>
-                <li ng-repeat="beer in beers" class="breweryName" ng-click="open($index)">{{beer.name}}</li>
-                <li ng-click>{{put something in here, brett}}</li>
+                <li ng-repeat="brewery in breweries" class="breweryName" ng-click="chooseBrewery($index)">
+                  {{brewery.name}}
+                </li>
               </ul> 
-			<!-- kill the menu -->
+  		     <!-- kill the menu -->
           </div>
           		<!-- Creates the little button with the approprate moniker: menu. -->
           <div class="navbar-header">
-                      <a href="#" class="toggle-nav btn btn-lg" ng-click="toggleMenu()"><i class="fa fa-bars"></i> Menu</a> 
+            <a href="" class="toggle-nav btn btn-lg" ng-click="toggleMenu()"><i class="fa fa-bars"></i> Menu</a> 
           </div>   
           		<!-- Dummy page content that makes as much sense as Lorem Ipsum -->
           <h1 class="text-center">Brew the Brewery Brew Bag</h1>
           <p class="lead text-center">Here's a template for some crap.</p>
-        
-          <!-- kill #site-canvas -->
-        </div>
-        <!-- kill #site-wrapper> -->
-      </div>
-
+        </div> <!-- kill #site-canvas --> 
+  </div> <!-- kill #site-wrapper> -->
 
 </div>
+
+ <!-- <div ng-controller="menuController" class="container">
+
+  <div class="container">
+    <form ng-submit="breweriesByCity(cityName)">
+      <input type="text" ng-model="cityName" placeholder="Search a city" />
+      <input type="submit" value="Search" class="btn btn-primary" />
+    </form>
+  </div>
+
+  <ul ng-repeat="brewery in breweries">
+    <li><a ng-href="#/brew/{{$index}}" class="breweryName">{{brewery.name}}</a></li>
+  </ul>
+
+</div> -->
