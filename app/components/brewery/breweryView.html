@@ -24,13 +24,13 @@
 
           </div>
           		<!-- Creates the little button with the approprate moniker: menu. -->
-          <div class="navbar-header">
+          <div class="navbar-header" ng-show="isMenuOpen == false">
             <a href="" class="toggle-nav btn btn-lg" ng-click="toggleMenu()"><i class="fa fa-bars"></i> Menu</a> 
           </div>   
           		<!-- Dummy page content that makes as much sense as Lorem Ipsum -->
           <h1 class="text-center">Brew the Brewery Brew Bag</h1>
 
-            <div class="coozy">
+            <div class="coozy" ng-show="isMenuOpen == true">
 			    <ul>
 			      <li ng-repeat="beer in beers" class="breweryName" ng-click="openModal($index)">{{beer.name}}</li>
 			    </ul> 

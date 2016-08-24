@@ -6,6 +6,7 @@ brewApp.directive('offCanvasMenu', function () {
             scope.isMenuOpen = false;
             scope.toggleMenu = function() {
                 scope.isMenuOpen = !scope.isMenuOpen;
+                if(!scope.isMenuOpen){ scope.beers = []; }
             };
         }
     };
