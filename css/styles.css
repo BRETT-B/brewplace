@@ -102,3 +102,10 @@ h1 {
 #dobSubmit button:hover {
   border: 2px solid black;
 }
+
+.breweryName {
+  color: white;
+}
+.breweryName:hover {
+  cursor: pointer;
+}

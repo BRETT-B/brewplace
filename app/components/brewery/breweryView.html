@@ -1,0 +1,5 @@
+<div class="container" ng-controller="breweryController">
+	<ul>
+		<li ng-repeat="beer in beers" class="breweryName" ng-click="open($index)">{{beer.name}}</li>
+	</ul> 
+</div>

@@ -1,0 +1,14 @@
+ <div ng-controller="menuController" class="container">
+
+  <div class="container">
+    <form ng-submit="breweriesByCity(cityName)">
+      <input type="text" ng-model="cityName" placeholder="Search a city" />
+      <input type="submit" value="Search" class="btn btn-primary" />
+    </form>
+  </div>
+
+  <ul ng-repeat="brewery in breweries">
+  	<li><a ng-href="#/brew/{{$index}}" class="breweryName">{{brewery.name}}</a></li>
+  </ul>
+
+</div>
