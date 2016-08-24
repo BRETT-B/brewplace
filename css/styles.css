@@ -99,8 +99,9 @@ h1 {
 #logo {
   margin-top: 5%;
 }
-#form-submit button {
+#form-submit button{
   border: 1px solid black;
+
 }
 #form-submit button:hover {
   border: 2px solid black;
@@ -171,4 +172,12 @@ a:visited, a:hover, a:active {
   background: #222;
   color: #EEE;
   padding: 15px;
+}
+
+.coozy{
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  display: inline-block;
 }
