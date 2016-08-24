@@ -99,10 +99,10 @@ h1 {
 #logo {
   margin-top: 5%;
 }
-#dobSubmit button {
+#form-submit button {
   border: 1px solid black;
 }
-#dobSubmit button:hover {
+#form-submit button:hover {
   border: 2px solid black;
 }
 
