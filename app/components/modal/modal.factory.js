@@ -5,7 +5,7 @@ brewApp.factory('modalFactory', function($uibModal) {
         animation: true,
         templateUrl: 'app/components/modal/modalView.html',
         controller: 'modalController',
-        size: 'lg',
+        size: 'md',
         resolve: {
           params: function() {
             return options;

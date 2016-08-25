@@ -2,12 +2,6 @@ brewApp.controller('modalController', function ($scope, $uibModalInstance, param
 
 	$scope.options = params.searchTerm;
 
-    // $scope.imgLoadedEvents = {
-    //     fail: function(instance) {
-    //         console.log("failed: " + instance);
-    //     }
-    // };
-
 	$scope.close = function() {
 		$uibModalInstance.close();
 	};
@@ -17,13 +11,13 @@ brewApp.controller('modalController', function ($scope, $uibModalInstance, param
 		if (index === -1) {
 			faves.push($scope.options);
 		}
-	}
+	};
 
 	$scope.removeBeer = function() {
 		var index = faves.indexOf($scope.options);
 		if (index > -1) {
 			faves.splice(index, 1);
 		}
-	}
+	};
 
 });

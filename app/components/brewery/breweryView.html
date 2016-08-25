@@ -31,7 +31,7 @@
           <div class="coozy">
             <h2>{{chosenBrewery}}</h2>
   			     <ul>
-  			      <li ng-repeat="beer in beers" class="white-text hover-cursor" ng-click="openModal($index)">{{beer.name}}</li>
+  			      <li ng-repeat="beer in beers" class="white-text hover-cursor" ng-click="openModal(beers, $index)">{{beer.name}}</li>
   			     </ul>
 
             
@@ -39,7 +39,7 @@
               <hr />
               <h2>Favorite Beers</h2>
               <ul>
-                <li ng-repeat="fave in faves track by $index" class="hover-cursor" ng-click="openModal($index)">{{fave.name}}</li>
+                <li ng-repeat="fave in faves track by $index" class="hover-cursor" ng-click="openModal(faves, $index)">{{fave.name}}</li>
               </ul>
             </div>
   			   </div>

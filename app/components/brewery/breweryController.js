@@ -44,11 +44,11 @@ brewApp.controller('breweryController', function($scope, $interval, $uibModal, m
 				$scope.chosenBrewery = atlBreweries[8].name;
 				break;
 			case 9:
-				$scope.beers = wreckingBarBeers;
+				$scope.beers = eventideBeers;
 				$scope.chosenBrewery = atlBreweries[9].name;
 				break;
 			case 10:
-				$scope.beers = eventideBeers;
+				$scope.beers = wreckingBarBeers;
 				$scope.chosenBrewery = atlBreweries[10].name;
 				break;
 			case 11:
@@ -60,7 +60,11 @@ brewApp.controller('breweryController', function($scope, $interval, $uibModal, m
 		}
 	};
 
-	$scope.openModal = function(index) {
-		modalFactory.open({ searchTerm: $scope.beers[index] });
+	$scope.openModal = function(type, index) {
+		// type is an array of either all beers or only the favorite beers
+		// so type will either by equal to $scope.beers or $scope.faves
+		// index is the index of the beer that was clicked on (equal to $index)
+		modalFactory.open({ searchTerm: type[index] });
 	};
+
 });

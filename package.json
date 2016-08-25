@@ -4,7 +4,6 @@
   "description": "Our app should....",
   "main": "server.js",
   "dependencies": {
-    "angular-images-loaded": "^0.2.4",
     "connect": "^3.4.1",
     "serve-static": "^1.11.1"
   },
