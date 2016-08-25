@@ -23,6 +23,9 @@ var eventideBeerData = [
 				"availableId": 1,
 				"styleId": 23,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/eventide-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-04-23 12:51:56",
@@ -70,6 +73,9 @@ var eventideBeerData = [
 				"availableId": 1,
 				"styleId": 48,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/eventide-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-04-23 12:53:00",
@@ -117,6 +123,9 @@ var eventideBeerData = [
 				"ibu": "27",
 				"styleId": 104,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/eventide-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2016-02-17 15:19:50",
@@ -154,6 +163,9 @@ var eventideBeerData = [
 				"availableId": 1,
 				"styleId": 45,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/eventide-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-04-23 12:52:33",
@@ -201,6 +213,9 @@ var eventideBeerData = [
 				"availableId": 1,
 				"styleId": 32,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/eventide-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-04-23 12:53:22",
@@ -287,6 +302,9 @@ var eventideBeerData = [
 				"ibu": "65",
 				"styleId": 30,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/eventide-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2016-05-18 15:40:10",
@@ -325,6 +343,9 @@ var fiveSeasonsBeerData = [
 				"description": "This is a BIG imperial stout full of flavors of roasted espresso, dark chocolate, dark cherries and deep smoky notes. It will keep your engine running smooth all winter.",
 				"styleId": 21,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:59:38",
@@ -360,6 +381,9 @@ var fiveSeasonsBeerData = [
 				"description": "This is part of the Serenade Series, where we brew a beer inspired by a particular musician or group, and then serenade, the yeast with that music during the brewing, fermentation and conditioning of the beer. The beer was inspired by and then serenaded to the Grateful Dead's musical zenith, the year 1972. The entire 72 tour was played to the yeast-with some very interesting results!",
 				"styleId": 14,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:50:26",
@@ -396,6 +420,9 @@ var fiveSeasonsBeerData = [
 				"abv": "5",
 				"styleId": 5,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 18:27:36",
@@ -432,6 +459,9 @@ var fiveSeasonsBeerData = [
 				"availableId": 7,
 				"styleId": 96,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 18:31:52",
@@ -473,6 +503,9 @@ var fiveSeasonsBeerData = [
 				"abv": "8",
 				"styleId": 15,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 18:28:05",
@@ -509,6 +542,9 @@ var fiveSeasonsBeerData = [
 				"availableId": 8,
 				"styleId": 58,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 18:28:19",
@@ -551,6 +587,9 @@ var fiveSeasonsBeerData = [
 				"availableId": 4,
 				"styleId": 36,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 18:28:30",
@@ -591,6 +630,9 @@ var fiveSeasonsBeerData = [
 				"description": "Mild Ales are a popular British pub style beer. Ours is crisp with a touch of hop flavor, a light, smooth malt character and a dry finish. Although lighter in body it has a nice combination of flavors. This style of beer is often referred to as the “elixir of life for the salt of the earth” as it is widely consumed in the pubs of England.",
 				"styleId": 10,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:00:02",
@@ -628,6 +670,9 @@ var fiveSeasonsBeerData = [
 				"availableId": 2,
 				"styleId": 19,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 18:28:46",
@@ -668,6 +713,9 @@ var fiveSeasonsBeerData = [
 				"description": "Alert: This Amber Ale has a deep garnet red hue. The juicy malt backbone is balanced by the citrusy character of the Centennial hops. You should try this one. It’s for your own safety.",
 				"styleId": 32,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:50:48",
@@ -703,6 +751,9 @@ var fiveSeasonsBeerData = [
 				"description": "This is an American Version of a classic English ESB ale.   Copper colored with a beautiful floral, citrus aroma from ‘dry hopping’ it with American Ahtanum whole leaf hops.  A great beer to enjoy with friends.  \r\n\r\nThis beer does not have a name--create your own for it!",
 				"styleId": 5,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:00:46",
@@ -738,6 +789,9 @@ var fiveSeasonsBeerData = [
 				"description": "Black Beauty is a big Belgian Dubbel - but brewed with rye. \r\n\r\nIt is velvety smooth, chocolatey, has undertones of toffee and rum, and finishes with a dry, spiciness from the rye.\r\n\r\nThe yeast comes directly from an old Trappist monastery in Belgium and imparts a wonderfully complex character to the beer.\r\n\r\nI made Chef Dave make me our own traditional dark Belgian candi sugar to add to the complexity.  This beer was inspired by the music of Miles Davis. I actually placed speakers right by the fermentation tank and \"serenaded\" the yeast with Miles' music while it fermented the beer. Outta sight, man!",
 				"styleId": 58,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:51:23",
@@ -773,6 +827,9 @@ var fiveSeasonsBeerData = [
 				"description": "American Stouts are somewhat bigger, bolder versions of dry Irish stouts. Ours is filled with rich flavors of espresso and roasted coffee beans soon followed by dark, bittersweet chocolate. A firm bitterness cuts through the caramel sweetness of the malt. Black Hole American Stout is not just dark and opaque, it actually seems to absorb all light and matter that approaches it! So suck down a pint of the Black Hole before it sucks you in!",
 				"styleId": 42,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:01:10",
@@ -808,6 +865,9 @@ var fiveSeasonsBeerData = [
 				"description": "OK, the jokes were too easy when it came to naming this one - so we took it easy on all of the blondes out there. The Bombshell is golden in color, light in body and very refreshing.\r\n\r\nFeel free to add your own blonde joke. At your own risk.",
 				"styleId": 36,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:51:47",
@@ -843,6 +903,9 @@ var fiveSeasonsBeerData = [
 				"description": "An American Pale Ale - but brewed exclusively with British barley.\r\n\r\nIt is copper in color and has a nice sweetness from the malted barley. A citrusy aroma comes from the American whole leaf hops added in bags sitting right inside the serving tank (called ‘dry hopping’). \r\n\r\nOh, where does the name come from? It was Junior Samples’ phone number from the ol’ Hee Haw show.\r\n(Junior used to live in these parts actually.) And I really, really like Hee Haw.",
 				"styleId": 25,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:01:34",
@@ -878,6 +941,9 @@ var fiveSeasonsBeerData = [
 				"description": "An amber, deep copper color with a nice hop aroma. This beer is brewed with all imported British barley - Maris Otter floor-malted pale malt and Hugh Baird crystal malt. But the hops are all American. And the barley and hops are fighting for your taste buds in this beer, waging a gustatory battle.",
 				"styleId": 25,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:52:06",
@@ -912,6 +978,9 @@ var fiveSeasonsBeerData = [
 				"nameDisplay": "Clark Kent British Mild",
 				"styleId": 10,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:02:08",
@@ -947,6 +1016,9 @@ var fiveSeasonsBeerData = [
 				"description": "That’s where you’ll be after one of these.  Rich, deep, mysterious.  Malty with a big, fruity aroma.  This beer is excess in a glass.",
 				"styleId": 34,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:52:27",
@@ -982,6 +1054,9 @@ var fiveSeasonsBeerData = [
 				"description": "The new release in the Serenade Series, this beer was inspired by the music of John Coltrane, the greatest jazz musician of all-time. Among other things, it was brewed with quinoa, raisins and rosemary. (The rosemary comes from Hembree Farm in Roswell, a small, local, organic farm where we take the spent grain left over from the brewing process to be composted.) It was fermented with a Belgian Trappist yeast which adds deep fruit notes and spicy flavors. The music of John Coltrane serenaded the yeast the entire six weeks the beer spent in the fermentation tank which made it extra funky!",
 				"styleId": 70,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:02:44",
@@ -1008,6 +1083,9 @@ var fiveSeasonsBeerData = [
 				"description": "This beer is a traditional Irish Red Ale inspired by the savage beauty of western Ireland and its friendly people. \r\n\r\nIt has a deep amber, ruby color and a rich, smooth malt character. Notes of caramel and toasted malt persist. \r\n\r\nTales of appearances of fairies and leprechauns abound in the mountains of the Connemara, \r\nso who knows what will happen after enjoying a pint of this magical brew.",
 				"styleId": 22,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:52:45",
@@ -1043,6 +1121,9 @@ var fiveSeasonsBeerData = [
 				"description": "Brewed with floor-malted Maris Otter barley from England and six other specialty grains, this beer has notes of toffee, caramel and toasted biscuits. We also took some of the barley and toasted it in our ovens to bring out a nutty character.",
 				"styleId": 37,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:03:08",
@@ -1078,6 +1159,9 @@ var fiveSeasonsBeerData = [
 				"description": "Brewed with European Pilsner malt, German wheat malt and a hefty dose of turbinado sugar in the kettle, this beer clocks in at  over 9% abv. Despite this it has a dry finish and is very drinkable. The traditional Belgian yeast packs this beer with tropical fruit flavors, a mysterious earthiness and an inviting spiciness. In addition, we added grains of paradise, coriander and the peels of fresh clementines. After fermentation and conditioning we then aged the beer for 3 months in a red wine barrel from Tiger Mountain Vineyards before bottling. The barrel aging added a prominent red wine character, a beautiful color, a nice oak backbone and a mysterious mustiness.",
 				"styleId": 72,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:53:10",
@@ -1113,6 +1197,9 @@ var fiveSeasonsBeerData = [
 				"description": "The second offering in the Serenade Series, this is a traditional dry Irish Stout. It has a deep, dark, mysterious color. \r\n\r\nFlavors of expresso and chocolate dominate yet a subtle smoky character persists in the background. (There is no coffee or chocolate in there, it’s just the roasted barley.) This recipe was voted Best Stout in the world at the World Beer Cup 2000. This one’s for all you Stout Heads.",
 				"styleId": 23,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:03:39",
@@ -1148,6 +1235,9 @@ var fiveSeasonsBeerData = [
 				"description": "We barrowed our Venus (white) yeast to make this malty ale with hints of bakers' chocolate and traditional orange peel. We simply call this the high gravity beer the Dark White.",
 				"styleId": 125,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:53:38",
@@ -1182,6 +1272,9 @@ var fiveSeasonsBeerData = [
 				"description": "A classic German-style dark wheat beer brewed with German wheat, crystal wheat, pale malt and chocolate malt, German hops and a German yeast. It is very flavorful with big notes of toffee, banana, clove and chocolate. It is unfiltered, and therefore cloudy, as is traditional. Please ask your server or bartender if you would like a slice of lemon served with it. Prost!",
 				"styleId": 52,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:04:05",
@@ -1217,6 +1310,9 @@ var fiveSeasonsBeerData = [
 				"description": "This a golden German lager. A Dortmunder Export. Very drinkable. It is brewed with all German malts, German hops and a German lager yeast. On the lighter side yet very tasty.",
 				"styleId": 79,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:54:00",
@@ -1252,6 +1348,9 @@ var fiveSeasonsBeerData = [
 				"description": "This is the Black Hole Stout with 5 different types of espresso added. The rich, roasted notes of the coffee marry the dark flavors of the Stout creating an immense combination of flavors. So stay up all night and get sucked in to the Espresso Black Hole – or even better, wake up to the day with one!",
 				"styleId": 123,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:04:28",
@@ -1322,6 +1421,9 @@ var fiveSeasonsBeerData = [
 				"description": "Subconsciously you desire this beer. This beautiful, stunning lager is nice to look at in its tall, thin, shapely glass. It has a light amber color, like a strawberry blonde. It has a firm, supple, creamy head. It is smooth, but with great body. It’s malty, sweet aroma lingers like a lover’s scent on a pillow. It will leave you wanting, desiring more. (How’s that for some Freudian Slips?)\r\n\r\nBut seriously, it is brewed with German malted barley, European noble hops and lagered for two months. Enjoy.",
 				"styleId": 80,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:04:53",
@@ -1357,6 +1459,9 @@ var fiveSeasonsBeerData = [
 				"description": "You might be a redneck if you drink this beer…\r\nAn American Wheat beer with 300 lbs of fresh GA peaches right from the farm into the tank! A great beer for these southern hot summer days and nights.",
 				"styleId": 119,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:54:59",
@@ -1392,6 +1497,9 @@ var fiveSeasonsBeerData = [
 				"description": "A golden ale is a delicate balance of malt and hops. To achieve this perfect balance, the ratio of malt and hops is based upon the actual golden number, the Fibonacci Sequence, or Phi as the Greeks knew it. This number’s pervasive appearance throughout nature creates a sense of balance, harmony and beauty in art, architecture, composition, space – and now beer! Some believe this number is a universal constant of design, the signature of God. (Some believe it is a perfect ratio of malt and hops.)  And for those of you playing along at home, the actual number is 1.6180339887…..",
 				"styleId": 36,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:05:17",
@@ -1427,6 +1535,9 @@ var fiveSeasonsBeerData = [
 				"description": "Tripels are one of the most beautiful, wonderful beers ever brewed by man. There is just something majestic about them. No simple beer description could capture that. So I had to write a haiku for the description.\r\n\r\ngolden gift from God\r\nsweet, honeysuckle, spice, fruit\r\npour me another!",
 				"styleId": 59,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:55:19",
@@ -1462,6 +1573,9 @@ var fiveSeasonsBeerData = [
 				"description": "We brew our own all-natural, hand crafted root beer right here. It’s made with cane sugar, brown sugar,     vanilla bean, star anise, cinnamon, cardamom, juniper berries, toasted coriander and hops.\r\n\r\nThere is no caffeine.  Save room for a float!",
 				"styleId": 139,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:05:44",
@@ -1489,6 +1603,9 @@ var fiveSeasonsBeerData = [
 				"abv": "9.14",
 				"styleId": 72,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:55:41",
@@ -1524,6 +1641,9 @@ var fiveSeasonsBeerData = [
 				"description": "Let’s celebrate the economy by raising a pint! This is a traditional British session beer – a beer brewed to slightly lower alcohol levels where one can drink several pints in a “session” at the pub. It is made exclusively with the finest English barley and only whole leaf Willamette hops. It is then dry-hopped in the serving tank for a wonderful floral aroma and texture.  Cheers!",
 				"styleId": 108,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:06:08",
@@ -1559,6 +1679,9 @@ var fiveSeasonsBeerData = [
 				"description": "This beer was a joy to brew. We started with Golden Promise barley, a strain of barley only grown in Scotland and used by the world’s great single malt Scotch distillers. We then smoked some barley over a peat fire out back. The peat was shipped directly from Ireland. The smoked malt adds a peaty, earthy (and smoky) depth and complexity to the beer. The beer is then allowed to age, or lager, for over a month at 32 degrees in order for the flavors to really come together.\r\n\r\nIt would have been pouring a week earlier if a piece on the serving tank had not broken. That was quite obviously Dennis’ fault. I would never have crossthreaded that piece. Never.",
 				"styleId": 8,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:56:05",
@@ -1594,6 +1717,9 @@ var fiveSeasonsBeerData = [
 				"description": "This is a bigger version of our Venus (both invoke the powers of the Goddess of Love). Brewed with European Pilsner malt, German wheat malt, unmalted wheat and flaked oats, it is then spiced at the end of the boil with 55 fresh orange peels, coriander and a bit of freshly ground black pepper which adds an earthy character.",
 				"styleId": 65,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:06:57",
@@ -1629,6 +1755,9 @@ var fiveSeasonsBeerData = [
 				"description": "This is a nice, easy drinking, sessionable porter. It's a deep brown color with dark, ruby highlights. The oats add a nice complexity to the chocolatey character.",
 				"styleId": 18,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:56:26",
@@ -1664,6 +1793,9 @@ var fiveSeasonsBeerData = [
 				"description": "A golden lager in the traditional Munich brewing style. This is what you find on tap in Bavaria instead of a Pilsener. With more malt character and less hop bitterness than a pilsener, our Helles is full flavored but crisp. Slightly lighter bodied than our Seven Sisters Münchner.",
 				"styleId": 78,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 18:27:21",
@@ -1700,6 +1832,9 @@ var fiveSeasonsBeerData = [
 				"abv": "7",
 				"styleId": 30,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:07:21",
@@ -1735,6 +1870,9 @@ var fiveSeasonsBeerData = [
 				"description": "This is a traditional dry Irish Stout - with a few shots of Italian espresso added. It has a deep, dark, mysterious color. \r\nFlavors of espresso and dark chocolate dominate yet a smoky character persists in the background. We nitrogenated it (“carbonating” it with nitrogen instead of CO2) which gives it a wonderful creamy texture when run through a ‘creamer’ faucet (and that very cool cascade special effect!)",
 				"styleId": 23,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:56:54",
@@ -1805,6 +1943,9 @@ var fiveSeasonsBeerData = [
 				"description": "(Peated, Smoked, Molasses) Porters are dark,, chocolaty beers and first cousins to Stout. We used some molasses in the boil to add some depth of character and then smoked a small portion of the grain over a peat fire to give it a slight smokiness as well. Don’t let the color fool you, this is a very drinkable beer.",
 				"styleId": 18,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:57:17",
@@ -1840,6 +1981,9 @@ var fiveSeasonsBeerData = [
 				"description": "Poltergeist ESB has a light copper color, a toasted, biscuity malt profile and a prominent earthy, flowery hoppiness. A slight honey fruitiness sneeks its way in the background as well. It is brewed with exquisite traditional English ingredients – Maris Otter floor malted barley and Kent Golding hops. Relax and have a pint or two to keep the evil spirits away – and, of course, go to the light.",
 				"styleId": 5,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:08:10",
@@ -1875,6 +2019,9 @@ var fiveSeasonsBeerData = [
 				"description": "We brewed one batch of the Pumpkin Ale to celebrate the fall harvest season, and we used almost 100 lbs of organic Sweet Sugar Pumpkin from a local Georgia farm. We carved, baked and scooped pumpkin (for a really long time) and then added them directly into the mash. Several ‘pumpkin pie’ spices were added in the kettle. Enjoy!",
 				"styleId": 121,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:57:40",
@@ -1910,6 +2057,9 @@ var fiveSeasonsBeerData = [
 				"description": "A Belgian Quintuple--if there was such a thing.  A celebration of the opening of 5 Seasons-North. \r\n\r\nThere are 5 malts, 5 hops, 5 of this, 5 of that 25 of these things and 25 of those things over there.  It is a BIG beer. \r\n\r\nVery rich, very complex.  But don’t be scared of it—or maybe you should.",
 				"styleId": 60,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:08:37",
@@ -1945,6 +2095,9 @@ var fiveSeasonsBeerData = [
 				"description": "Ours is a traditional German-style Wheat Beer. We use German wheat, German barley and German hops. \r\n\r\nIt is gold in color and has a soft, smooth malt character. We also use a German yeast specifically cultivated for this style of beer. It imparts extremely interesting flavors of banana, clove and spice. It is unfiltered and, therefore, cloudy as is traditional.",
 				"styleId": 48,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:58:06",
@@ -1980,6 +2133,9 @@ var fiveSeasonsBeerData = [
 				"description": "Shakti (Hindu for ‘sacred force’) Saison is a mix of East and West and is brewed with Maris Otter floor-malted barley, German wheat malt, Crystal Wheat and turbinado sugar in the kettle. It is spiced with cardamom and grains of paradise, while the Belgian yeast produces an extremely complex flavor profile with tropical fruit, earthy, spicy notes. The latest installment in the Serenade Series, the yeast was serenaded by the beautiful sounds of the legendary jazz groups, Shakti, who first fused western jazz and classical Indian music. The yeast got real funky – as did the brewer.",
 				"styleId": 72,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:08:56",
@@ -2015,6 +2171,9 @@ var fiveSeasonsBeerData = [
 				"description": "This is a French-style saison. Saisons are a farmhouse style of beer, rustic in character and the yeast imparts lots of spicy notes. It is very dry and refreshing.",
 				"styleId": 72,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:58:25",
@@ -2050,6 +2209,9 @@ var fiveSeasonsBeerData = [
 				"description": "It is the Quinte55ence aged in Woodford Reserve Whiskey barrels for 5.5 weeks. We then hand bottled it in 750 ml bottles, corked finished them and put champagne cages on. It is a limited release\r\nThis beer is the Answer to the Questions. This is what Willis was talking about. This is where the beef is. \r\n\r\nThis is the sound of one hand clapping.",
 				"styleId": 60,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"beerVariationId": "G4s4Pd",
 				"status": "verified",
 				"statusDisplay": "Verified",
@@ -2085,6 +2247,9 @@ var fiveSeasonsBeerData = [
 					"description": "A Belgian Quintuple--if there was such a thing.  A celebration of the opening of 5 Seasons-North. \r\n\r\nThere are 5 malts, 5 hops, 5 of this, 5 of that 25 of these things and 25 of those things over there.  It is a BIG beer. \r\n\r\nVery rich, very complex.  But don’t be scared of it—or maybe you should.",
 					"styleId": 60,
 					"isOrganic": "N",
+					"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 					"status": "verified",
 					"statusDisplay": "Verified",
 					"createDate": "2013-05-09 00:08:37",
@@ -2121,6 +2286,9 @@ var fiveSeasonsBeerData = [
 				"description": "The Great Pumpkin has indeed finally arrived. We brewed one batch of Pumpkin Ale to celebrate the fall harvest season and we used almost 400 lbs of fresh, local, organic pumpkins from a Riverview Farms. We carved, baked and scooped pumpkin (for a really long time) and added them directly into the mash. Several “pumpkin pie” spices were added in the kettle. Enjoy.",
 				"styleId": 121,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:58:53",
@@ -2156,6 +2324,9 @@ var fiveSeasonsBeerData = [
 				"description": "Bocks are German lagers. They are malty and smooth,and can be fairly strong. Ours is brewed with rye which adds a nice dryness and spiciness. It is amber in color, malty, smooth wih a dry finish.",
 				"styleId": 88,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:10:10",
@@ -2191,6 +2362,9 @@ var fiveSeasonsBeerData = [
 				"description": "We somehow managed to fit 600 lbs of fresh, local, organic watermelons into this American wheat beer. Very refreshing.",
 				"styleId": 119,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:59:17",
@@ -2226,6 +2400,9 @@ var fiveSeasonsBeerData = [
 				"description": "This is a big, hearty beer full of flavor, It has a tawny, brown color while notes of deep fruits, raisins, bananas and spice fill the nose. A full malt character is followed by the warming sensation of the alcohol with a subtle clove character in the finish.",
 				"styleId": 90,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-08 23:49:53",
@@ -2261,6 +2438,9 @@ var fiveSeasonsBeerData = [
 				"description": "A Belgian Dubbel that was aged in a Jack Daniel’s whiskey barrel. Notes of chocolate, vanilla and whiskey really shine through. This one will put hair on your chest.",
 				"styleId": 58,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/5-seasons-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2013-05-09 00:10:36",
@@ -2358,6 +2538,9 @@ var maxLagersBeerData = [
 				"availableId": 4,
 				"styleId": 41,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"servingTemperature": "cold",
@@ -2416,6 +2599,9 @@ var maxLagersBeerData = [
 				"availableId": 4,
 				"styleId": 59,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"servingTemperature": "cold",
@@ -2474,6 +2660,9 @@ var maxLagersBeerData = [
 				"availableId": 6,
 				"styleId": 46,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"servingTemperature": "cold",
@@ -2531,6 +2720,9 @@ var maxLagersBeerData = [
 				"availableId": 2,
 				"styleId": 124,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"servingTemperature": "cool",
@@ -2652,6 +2844,9 @@ var maxLagersBeerData = [
 				"availableId": 6,
 				"styleId": 31,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"servingTemperature": "cold",
@@ -2709,6 +2904,9 @@ var mondayNightBeerData = [
 				"ibu": "75",
 				"styleId": 31,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/monday-night-bed-head.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2014-04-09 09:44:31",
@@ -2835,6 +3033,9 @@ var mondayNightBeerData = [
 				"ibu": "26",
 				"styleId": 15,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/monday-night-cinnamon-cocoa-drafty-kilt.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2016-02-24 21:23:16",
@@ -3074,6 +3275,9 @@ var mondayNightBeerData = [
 				"ibu": "15",
 				"styleId": 47,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2016-05-10 13:03:23",
@@ -3234,6 +3438,9 @@ var mondayNightBeerData = [
 				"ibu": "50",
 				"styleId": 33,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/monday-night-master-splinter.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-03-19 19:54:25",
@@ -3323,6 +3530,9 @@ var mondayNightBeerData = [
 				"ibu": "46",
 				"styleId": 30,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2016-08-19 17:11:11",
@@ -3455,6 +3665,9 @@ var mondayNightBeerData = [
 				"ibu": "22",
 				"styleId": 98,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/monday-night-super-nerd.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"foodPairings": "Fish, pizza, hamburgers, lightly spiced foods",
@@ -3491,6 +3704,9 @@ var mondayNightBeerData = [
 				"abv": "6.6",
 				"styleId": 30,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2016-08-19 17:19:43",
@@ -3834,6 +4050,9 @@ var orpheusBeerData = [
 				"nameDisplay": "Orpheus",
 				"styleId": 25,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/orpheus-brewery-default.jpeg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-10-28 00:09:14",
@@ -4096,12 +4315,15 @@ var orpheusBeerData = [
 var parkTavernBeerData = [
 			{
 				"id": "LPiJ3q",
-				"name": "EASTSIDE TRAIL PALE ALE",
+				"name": "Eastside Trail Pale Ale",
 				"nameDisplay": "EASTSIDE TRAIL PALE ALE",
 				"description": "German Pale malt and Cascade hops",
 				"availableId": 1,
 				"styleId": 73,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-04-03 14:46:34",
@@ -4137,12 +4359,15 @@ var parkTavernBeerData = [
 			},
 			{
 				"id": "a39vMi",
-				"name": "OLMSTED AMBER ALE",
+				"name": "Olmsted Amber Ale",
 				"nameDisplay": "OLMSTED AMBER ALE",
 				"description": "English Pale malt with Caramunich and Carafa malts and East Kent Goldings hops",
 				"availableId": 1,
 				"styleId": 32,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-04-03 14:51:36",
@@ -4178,12 +4403,15 @@ var parkTavernBeerData = [
 			},
 			{
 				"id": "j5zUuP",
-				"name": "PIEDMONT PILSNER",
+				"name": "Piedmont Pilsner",
 				"nameDisplay": "PIEDMONT PILSNER",
 				"description": "Weyermann Pilsner malt and Czech Saaz hops",
 				"availableId": 1,
 				"styleId": 98,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-04-03 14:45:02",
@@ -4219,12 +4447,15 @@ var parkTavernBeerData = [
 			},
 			{
 				"id": "R0KLp1",
-				"name": "PT’S IPA",
+				"name": "PT’s IPA",
 				"nameDisplay": "PT’S IPA",
 				"description": "English Pale and Crystal 155 malts with Cascade, Centennial and Columbus hops",
 				"availableId": 1,
 				"styleId": 2,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-04-03 14:53:19",
@@ -4260,12 +4491,15 @@ var parkTavernBeerData = [
 			},
 			{
 				"id": "ogbXfa",
-				"name": "SOUTHWEST LAGER",
+				"name": "Southwest Lager",
 				"nameDisplay": "SOUTHWEST LAGER",
 				"description": "Vienna Lager and Munich malts with Saphir hops",
 				"availableId": 1,
 				"styleId": 80,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/replace-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-04-03 14:52:36",
@@ -4312,6 +4546,9 @@ var pontoonBeerData = [
 				"availableId": 1,
 				"styleId": 98,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/pontoon-no-pants-pilsner.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2016-02-17 15:10:45",
@@ -4355,6 +4592,9 @@ var pontoonBeerData = [
 				"availableId": 1,
 				"styleId": 30,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/pontoon-southern-skipper.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2016-02-17 14:57:58",
@@ -4794,6 +5034,9 @@ var redBrickBeerData = [
 				"availableId": 3,
 				"styleId": 36,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/red-brick-blonde.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-01-03 02:42:51",
@@ -4875,6 +5118,9 @@ var redBrickBeerData = [
 				"srmId": 4,
 				"styleId": 164,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/red-brick-casual.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"foodPairings": "sizzling fajitas, ceviche, and arugula salad",
@@ -5080,6 +5326,9 @@ var redBrickBeerData = [
 				"availableId": 3,
 				"styleId": 89,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/red-brick-helluva-bock.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-01-03 02:43:22",
@@ -5356,6 +5605,9 @@ var redBrickBeerData = [
 				"availableId": 3,
 				"styleId": 64,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/red-brick-long-john.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-01-03 02:43:38",
@@ -5445,6 +5697,9 @@ var redBrickBeerData = [
 				"availableId": 3,
 				"styleId": 81,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/red-brick-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-01-03 02:43:49",
@@ -5536,6 +5791,9 @@ var redBrickBeerData = [
 				"availableId": 3,
 				"styleId": 37,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/red-brick-brown.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-01-03 02:44:03",
@@ -5584,6 +5842,9 @@ var redBrickBeerData = [
 				"availableId": 3,
 				"styleId": 25,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/red-brick-pale-ale.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-01-03 02:44:03",
@@ -5632,6 +5893,9 @@ var redBrickBeerData = [
 				"availableId": 3,
 				"styleId": 19,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/red-brick-porter.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-01-03 02:44:03",
@@ -5716,6 +5980,9 @@ var redBrickBeerData = [
 				"abv": "6",
 				"styleId": 32,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/red-brick-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2014-11-15 18:43:40",
@@ -5813,6 +6080,9 @@ var redBrickBeerData = [
 				"abv": "6",
 				"styleId": 37,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/red-brick-southern-roots.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-12-02 20:47:12",
@@ -5850,6 +6120,9 @@ var redBrickBeerData = [
 				"availableId": 3,
 				"styleId": 48,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/red-brick-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-01-03 02:44:19",
@@ -6100,6 +6373,9 @@ var secondSelfBeerData = [
 				"ibu": "50",
 				"styleId": 30,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/second-self-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"foodPairings": "Pan-roasted Trout, mussels, artichokes, gruyere cheese",
@@ -6138,6 +6414,9 @@ var secondSelfBeerData = [
 				"ibu": "8",
 				"styleId": 47,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/second-self-gose.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"foodPairings": "Grouper, oysters, guacamole, parmesan cheese.",
@@ -6261,6 +6540,9 @@ var secondSelfBeerData = [
 				"ibu": "21",
 				"styleId": 108,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/second-self-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"foodPairings": "Fish and Chips, curry, beef wellington, cheddar cheese",
@@ -6468,6 +6750,9 @@ var sweetWaterBeerData = [
 				"description": "For the ﬁrst ever SweetWater anniversary beer (yeah it took us 15 years), we went back to our roots, dusted off our original ESB recipe, and gave it a big ol’ bump. The recipe consists of 7 malts, one of which Kevin toasted personally in his toaster oven, just like the old days, and 5 different styles of hops. In true SweetWater style, there is no style, but it’s big, bold, and meant to grow old, meaning this beer will be fantastic out of the gate, or you can lay her down in the cellar for many years to come.",
 				"styleId": 5,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/sweetwater-15.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-04-16 15:44:15",
@@ -6545,6 +6830,9 @@ var sweetWaterBeerData = [
 				"abv": "9",
 				"styleId": 72,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/sweetwater-17-saison.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-04-16 15:43:03",
@@ -6676,6 +6964,9 @@ var sweetWaterBeerData = [
 				"availableId": 2,
 				"styleId": 31,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/sweetwater-420-fest.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-06-01 22:38:11",
@@ -7505,6 +7796,9 @@ var sweetWaterBeerData = [
 				"availableId": 2,
 				"styleId": 30,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/sweetwater-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2016-04-11 14:36:16",
@@ -7813,6 +8107,9 @@ var sweetWaterBeerData = [
 				"availableId": 4,
 				"styleId": 57,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/sweetwater-spinnerbait.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2015-03-26 01:17:41",
@@ -8462,6 +8759,9 @@ var wreckingBarBeerData = [
 				"availableId": 1,
 				"styleId": 20,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/wrecking-bar-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-09-29 17:22:22",
@@ -8509,6 +8809,9 @@ var wreckingBarBeerData = [
 				"ibu": "21",
 				"styleId": 45,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/wrecking-bar-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"originalGravity": "1.045",
@@ -8549,6 +8852,9 @@ var wreckingBarBeerData = [
 				"availableId": 1,
 				"styleId": 31,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/wrecking-bar-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"originalGravity": "1.092",
@@ -8599,6 +8905,9 @@ var wreckingBarBeerData = [
 				"availableId": 1,
 				"styleId": 65,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/wrecking-bar-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"originalGravity": "1.047",
@@ -8649,6 +8958,9 @@ var wreckingBarBeerData = [
 				"availableId": 1,
 				"styleId": 117,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/wrecking-bar-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"originalGravity": "1.054",
@@ -8690,6 +9002,9 @@ var wreckingBarBeerData = [
 				"availableId": 1,
 				"styleId": 42,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/wrecking-bar-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"originalGravity": "1.061",
@@ -8740,6 +9055,9 @@ var wreckingBarBeerData = [
 				"availableId": 1,
 				"styleId": 45,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/wrecking-bar-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"originalGravity": "1.047",
@@ -8790,6 +9108,9 @@ var wreckingBarBeerData = [
 				"availableId": 1,
 				"styleId": 72,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/wrecking-bar-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"originalGravity": "1.062",
@@ -8840,6 +9161,9 @@ var wreckingBarBeerData = [
 				"availableId": 1,
 				"styleId": 54,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/wrecking-bar-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"originalGravity": "1.054",
@@ -8890,6 +9214,9 @@ var wreckingBarBeerData = [
 				"availableId": 1,
 				"styleId": 109,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/wrecking-bar-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"originalGravity": "1.043",
@@ -8940,6 +9267,9 @@ var wreckingBarBeerData = [
 				"availableId": 1,
 				"styleId": 30,
 				"isOrganic": "N",
+				"labels": {		
+					"large": "../images/beer-labels/wrecking-bar-default.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"originalGravity": "1.069",
