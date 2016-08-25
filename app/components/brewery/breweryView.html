@@ -25,7 +25,7 @@
           </div>
           	<!-- Creates the little button with the approprate moniker: menu. -->
           <div class="navbar-header" ng-show="isMenuOpen == false">
-            <a id="menu-btn" class="toggle-nav btn btn-lg" ng-href="" ng-click="toggleMenu()"><i class="fa fa-bars"></i>Menu</a> 
+            <a id="menu-btn" class="toggle-nav btn btn-lg" ng-href="" ng-click="toggleMenu()"><i class="fa fa-bars"></i> Menu</a> 
           </div>  
           <!--ngRepeat to populate list of beers. On click opens modal with specific beer info-->
           <div class="coozy">
@@ -35,10 +35,10 @@
   			     </ul>
 
             
-            <div ng-hide="" class="faves">
+            <div class="faves">
             <hr />
               <h2>Favorite Beers</h2>
-              <ul class="well">
+              <ul>
                 <li ng-repeat="fave in faves track by $index">{{fave.name}}</li>
               </ul>
             </div>

@@ -1,5 +1,6 @@
 <div class="modal-header">
-	<h2>{{options.brewery}}</h2>
+	<button class="btn btn-sm btn-default" ng-click="close()">X</button>
+	<h2 ng-cloak>{{options.brewery}}</h2>
 </div>
 <div class="modal-label">
 	<img class="modal-img" ng-src="{{options.label}}">
@@ -14,8 +15,7 @@
   	<button type="button" class="btn btn-success glyphicon glyphicon-thumbs-up" 
           ng-click="addBeer()">Cheers</button>
 	
-	<button type="button" class="btn btn-warning " 
+	<button type="button" class="btn btn-danger glyphicon glyphicon-thumbs-down" 
           ng-click="removeBeer()">Jeers</button>
 	
-	<button class="btn btn-info glyphicon glyphicon-thumbs-down" ng-click="close()">Close</button>
 </div>
