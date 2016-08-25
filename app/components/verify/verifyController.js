@@ -34,7 +34,7 @@ brewApp.controller('verifyController', function($location, $scope) {
             
         var validDate = ($scope.month.length > 0) && ($scope.day.length > 0) && ($scope.year.length > 0);
 
-        if(validDate && (currentDate - d) < 0) {
+        if(validDate || (currentDate - d) < 0) {
             $scope.ageNotValid = true;
         } else {
             $location.path('/brew');
