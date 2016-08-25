@@ -6,7 +6,6 @@ brewApp.controller('breweryController', function($scope, $interval, $uibModal, m
 	}, 1000);
 
 	$scope.chooseBrewery = function(index) {
-		//console.log(index)
 		switch(index) {
 			case 0:
 				$scope.beers = oDempseysBeers;
@@ -59,8 +58,7 @@ brewApp.controller('breweryController', function($scope, $interval, $uibModal, m
 			default:
 				$scope.beers = "Invalid route."
 		}
-		//console.dir($scope.beers);
-	}
+	};
 
 	$scope.openModal = function(index) {
 		modalFactory.open({ searchTerm: $scope.beers[index] });

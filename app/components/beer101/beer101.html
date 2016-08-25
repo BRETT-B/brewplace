@@ -1,28 +1,32 @@
-<h1>Beer 101</h1>
-	<a id="return" class="btn btn-lg" ng-href="#/brew">Return</a>
-	<h2>Definitions</h2>
-		<ul>
-		    <li ng-repeat="define in definitions">
-		    Term: {{define.term}}
-		    Definition: {{define.defined}}
-		    Example: {{define.example}}
-		    </li>
-		</ul>
+<h1 class="white-text">Beer 101</h1>
+<a id="return" class="btn btn-lg" ng-href="#/brew">Return</a>
 
-	<h2>Beer Styles</h2>
-		<h3>Ales</h3>
-			<ul>
-			    <li ng-repeat="ale in ales">
-			    Style: {{ale.style}}
-			    Description: {{ale.description}}
-			    Example: {{ale.example}}
-			    </li>
-			</ul>
-		<h3>Lagers</h3>
-			<ul>
-			    <li ng-repeat="lager in lagers">
-			    Style: {{lager.style}}
-			    Description: {{lager.description}}
-			    Example: {{lager.example}}
-			    </li>
-			</ul>
+<h2 class="white-text">Definitions</h2>
+
+	<ul>
+	    <li class="white-text" ng-repeat="define in definitions">
+	    Term: {{define.term}}
+	    Definition: {{define.defined}}
+	    Example: {{define.example}}
+	    </li>
+	</ul>
+
+<h2 class="white-text">Beer Styles</h2>
+
+<h3 class="white-text">Ales</h3>
+<ul>
+    <li class="white-text" ng-repeat="ale in ales">
+    Style: {{ale.style}}
+    Description: {{ale.description}}
+    Example: {{ale.example}}
+    </li>
+</ul>
+
+<h3 class="white-text">Lagers</h3>
+<ul>
+    <li class="white-text" ng-repeat="lager in lagers">
+    Style: {{lager.style}}
+    Description: {{lager.description}}
+    Example: {{lager.example}}
+    </li>
+</ul>
