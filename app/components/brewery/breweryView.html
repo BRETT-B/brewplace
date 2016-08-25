@@ -18,9 +18,9 @@
                 </li>
               </ul> 
   		     <!-- kill the menu -->
-				<hr>
+				  <hr />
 					<h3><a ng-href="#/beer101">General Beer Info</a></h3>
-				<hr>
+				  <hr />
 
           </div>
           	<!-- Creates the little button with the approprate moniker: menu. -->
@@ -28,25 +28,22 @@
             <a id="menu-btn" class="toggle-nav btn btn-lg" ng-href="" ng-click="toggleMenu()"><i class="fa fa-bars"></i> Menu</a> 
           </div>  
           <!--ngRepeat to populate list of beers. On click opens modal with specific beer info-->
-          <div class="coozy">
+        <div class="coozy row">
+
+          <div class="current-brewery col-sm-6">
             <h2>{{chosenBrewery}}</h2>
   			     <ul>
   			      <li ng-repeat="beer in beers" class="white-text hover-cursor" ng-click="openModal(beers, $index)">{{beer.name}}</li>
   			     </ul>
+          </div>
 
-            
-            <div class="faves">
-              <hr />
+          <div ng-show="beers" class="faves col-sm-6">
               <h2>Favorite Beers</h2>
               <ul>
                 <li ng-repeat="fave in faves track by $index" class="hover-cursor" ng-click="openModal(faves, $index)">{{fave.name}}</li>
               </ul>
-            </div>
-  			   </div>
-
-
-        </div> <!-- kill #site-canvas --> 
+          </div>
+  			</div>
+      </div> <!-- kill #site-canvas --> 
   </div> <!-- kill #site-wrapper> -->
-
 </div>
-
