@@ -34,11 +34,11 @@
   			      <li ng-repeat="beer in beers" class="breweryName" ng-click="openModal($index)">{{beer.name}}</li>
   			     </ul>
 
-            <hr />
             
-            <div class="faves">
+            <div ng-hide="" class="faves">
+            <hr />
               <h2>Favorite Beers</h2>
-              <ul>
+              <ul class="well">
                 <li ng-repeat="fave in faves track by $index">{{fave.name}}</li>
               </ul>
             </div>

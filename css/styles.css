@@ -24,7 +24,11 @@ img {
 }
 body {
   margin: 0;
-  background: #000;
+  background: url('../images/backdrop.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: #333; 
 }
 video { 
@@ -132,12 +136,12 @@ a:visited, a:hover, a:active {
 }
 
 .fa-times {
-  font-size: 30px;
+  font-size: 40px;
   color: #fff;
   float: right;
 }
 .btn-lg {
-  background: firebrick;
+  background: url('../images/metal-texture.png');
   color: #EEE;
   display: block;
   position: absolute;
@@ -187,4 +191,13 @@ a:visited, a:hover, a:active {
   top: 100px;
   left: 300px;
   display: inline-block;
+}
+#return.btn-lg {
+  position: relative;
+}
+.faves .well {
+  background: #FFF;
+  opacity: 0.25;
+  border-radius: 4px;
+
 }
