@@ -404,6 +404,9 @@ var redBrickBeerData = [
 				"availableId": 3,
 				"styleId": 36,
 				"isOrganic": "N",
+				"labels": {
+					"large": "../../images/beer-labels/red-brick-blonde.jpg"
+				},
 				"status": "verified",
 				"statusDisplay": "Verified",
 				"createDate": "2012-01-03 02:42:51",
