@@ -225,3 +225,6 @@ a:visited, a:hover, a:active {
 .white-text {
   color: white;
 }
+.link-color {
+  color: #fafafa;
+}
