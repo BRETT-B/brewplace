@@ -5,10 +5,6 @@ brewApp.controller('breweryController', function($scope, $location, $interval, $
 	
 	$scope.breweries = atlBreweries;
 
-	// $interval(function() {
-	// 	$scope.faves = $scope.storage.faves;
-	// }, 1000);
-
 	$scope.chooseBrewery = function(index) {
 		switch(index) {
 			case 0:
