@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "connect": "^3.4.1",
+    "ngstorage": "^0.3.11",
     "serve-static": "^1.11.1"
   },
   "devDependencies": {},

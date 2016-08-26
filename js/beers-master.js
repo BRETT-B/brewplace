@@ -1,5 +1,3 @@
-var faves = [];
-
 var eventideBeers = [];
 var fiveSeasonsBeers = [];
 var maxLagersBeers = [];

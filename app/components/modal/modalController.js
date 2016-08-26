@@ -1,4 +1,6 @@
-brewApp.controller('modalController', function ($scope, $uibModalInstance, params) {
+brewApp.controller('modalController', function ($scope, $localStorage, $uibModalInstance, params) {
+	$scope.storage = $localStorage;
+	if (!$scope.storage.faves) $scope.storage.faves = [];
 
 	$scope.options = params.searchTerm;
 
@@ -7,17 +9,13 @@ brewApp.controller('modalController', function ($scope, $uibModalInstance, param
 	};
 
 	$scope.addBeer = function() {
-		var index = faves.indexOf($scope.options);
-		if (index === -1) {
-			faves.push($scope.options);
-		}
+		var index = $scope.storage.faves.indexOf($scope.options);
+		if (index === -1) $scope.storage.faves.push($scope.options);
 	};
 
 	$scope.removeBeer = function() {
-		var index = faves.indexOf($scope.options);
-		if (index > -1) {
-			faves.splice(index, 1);
-		}
+		var index = $scope.storage.faves.indexOf($scope.options);
+		if (index > -1) $scope.storage.faves.splice(index, 1);
 	};
 
 });

@@ -40,7 +40,7 @@
           <div ng-show="beers.length > 0" class="faves col-sm-6">
               <h2>Favorite Beers</h2>
               <ul>
-                <li ng-repeat="fave in faves track by $index" class="hover-cursor" ng-click="openModal(faves, $index)">{{fave.name}}</li>
+                <li ng-repeat="fave in storage.faves track by $index" class="hover-cursor" ng-click="openModal(storage.faves, $index)">{{fave.name}}</li>
               </ul>
           </div>
   			</div>

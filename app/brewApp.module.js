@@ -1,1 +1,1 @@
-var brewApp = angular.module('brewApp', ['ngAnimate', 'ui.bootstrap', 'ngRoute']);
+var brewApp = angular.module('brewApp', ['ngAnimate', 'ui.bootstrap', 'ngRoute', 'ngStorage']);

@@ -1,9 +1,13 @@
-brewApp.controller('breweryController', function($scope, $interval, $uibModal, modalFactory){
+brewApp.controller('breweryController', function($scope, $location, $interval, $uibModal, modalFactory, $localStorage) {
+	// check for localStorage variable
+	$scope.storage = $localStorage;
+	if (!$scope.storage.verified) $location.path('/');
+	
 	$scope.breweries = atlBreweries;
 
-	$interval(function(){
-		$scope.faves = faves;
-	}, 1000);
+	// $interval(function() {
+	// 	$scope.faves = $scope.storage.faves;
+	// }, 1000);
 
 	$scope.chooseBrewery = function(index) {
 		switch(index) {
@@ -56,7 +60,7 @@ brewApp.controller('breweryController', function($scope, $interval, $uibModal, m
 				$scope.chosenBrewery = atlBreweries[11].name;
 				break;
 			default:
-				$scope.beers = "Invalid route."
+				$scope.beers = "Invalid route.";
 		}
 	};
 
