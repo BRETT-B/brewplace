@@ -1,10 +1,10 @@
-<div style="margin: auto"><img style="text-align: center" src="http://www.brew.place/images/beerplace-logo.png"/></div>
+<p align="center"><img style="text-align: center" src="http://www.brew.place/images/beerplace-logo.png"/></p>
 
 # Brew.place
 
 A responsive single page application (SPA) that allows the user to search through local breweries. Not only is the application a resource to find out specific information on any given beer in the area, but it also allows the user to store beers that they like in a "Favorite Beers" list. Additionally, the site offers a wealth of general beer knowledge in what we call "Beer 101" in case you're too buzzed to figure out some terminology.
 
-<div style="margin: auto"><img style="text-align: center" src ="http://www.brew.place/images/readme.gif"/></div>
+<p align="center"><img style="text-align: center" src ="http://www.brew.place/images/readme.gif"/></p>
 
 ## Features
 
