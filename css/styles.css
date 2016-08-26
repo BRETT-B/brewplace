@@ -230,3 +230,6 @@ a:visited, a:hover, a:active {
 .link-color {
   color: #fafafa;
 }
+.modal-beer-name {
+  text-align: center;
+}

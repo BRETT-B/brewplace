@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="row">
-		<div class="col-sm-12 col-md-10 col-lg-8">
+		<div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10">
 			<h1 class="white-text">Beer 101</h1>
 			<h3 class="white-text">Table of Contents</h3>
 			<ol>
@@ -11,9 +11,9 @@
 			<hr />
 
 			<section class="well" id="definitions">
-				<h2 class="white-text">Definitions</h2>
+				<h2>Definitions</h2>
 
-				<p class="white-text" ng-repeat="define in definitions">
+				<p ng-repeat="define in definitions">
 					<b>Term:</b> {{define.term}} <br/>
 					<b>Definition:</b> {{define.defined}} <br/>
 				    <b>Example:</b> {{define.example}} <br/>
@@ -21,19 +21,19 @@
 			</section>
 			<hr />
 			<section class="well" id="styles">
-				<h2 class="white-text">Beer Styles</h2>
+				<h2 class=>Beer Styles</h2>
 
-				<h3 class="white-text">Ales</h3>
+				<h3>Ales</h3>
 
-				<p class="white-text" ng-repeat="ale in ales">
+				<p ng-repeat="ale in ales">
 					<b>Style:</b> {{ale.style}} <br/>
 					<b>Description:</b> {{ale.description}} <br/>
 				    <b>Example:</b> {{ale.example}} <br/>
 				</p>
 
-				<h3 class="white-text">Lagers</h3>
+				<h3>Lagers</h3>
 
-				<p class="white-text" ng-repeat="lager in lagers">
+				<p ng-repeat="lager in lagers">
 					<b>Style:</b> {{lager.style}} <br/>
 					<b>Description:</b> {{lager.description}} <br/>
 				    <b>Example:</b> {{lager.example}} <br/>
