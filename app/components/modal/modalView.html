@@ -1,21 +1,22 @@
+
+<!-- Modal HTML using interpolation to populate data from controller -->
 <div class="modal-header">
-	<button class="btn btn-sm btn-default" ng-click="close()">X</button>
-	<h2 ng-cloak>{{options.brewery}}</h2>
+	<button class="btn btn-sm btn-default" ng-click="close()">X</button><!-- Close modal button. Also closes by clicking outside modal-->
+	<h2 ng-cloak>{{options.brewery}}</h2><!-- Brewery Name -->
 </div>
-<div class="modal-label">
+<div class="modal-label"><!-- Beer Label -->
+	<!-- If API doesn't have data for beer label default to broken link image -->
 	<img class="modal-img" ng-src="{{options.label}}" err-src="images/broken.png">
 </div>
 <div class="modal-body">
-	<h3 class="modal-beer-name">{{options.name}}</h3>
-	<h5>Style: {{options.style}}</h5>
-	<h5>ABV: {{options.abv}}</h5>
-	<p>{{options.description}}</p>
+	<h3 class="modal-beer-name">{{options.name}}</h3><!-- Beer Name -->
+	<h5>Style: {{options.style}}</h5><!-- Style of Beer -->
+	<h5>ABV: {{options.abv}}</h5><!-- Alcohol By Volume -->
+	<p>{{options.description}}</p><!-- Beer Description -->
 </div>
 <div class="modal-footer">
   	<button type="button" class="btn btn-success glyphicon glyphicon-thumbs-up" 
-          ng-click="addBeer()">Cheers</button>
-	
+          ng-click="addBeer()">Cheers</button><!-- Adds beer to "Favorite Beers" list -->
 	<button type="button" class="btn btn-danger glyphicon glyphicon-thumbs-down" 
-          ng-click="removeBeer()">Jeers</button>
-	
+          ng-click="removeBeer()">Jeers</button><!-- Removes beer from "Favorite Beers" list -->	
 </div>
