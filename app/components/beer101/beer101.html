@@ -1,19 +1,24 @@
 <div class="beer101-container">
+	<!-- Insert standard BS -->
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10">
+				<!-- Titles and such -->
 				<h1 class="white-text">Beer 101</h1>
 				<h3 class="white-text">Table of Contents</h3>
+					<!-- Table of Contents -->
 				<ol>
 					<li><a class="link-color" href="/#/beer101#definitions"><h4>1. Definitions</h4></a></li>
 					<li><a class="link-color" href="/#/beer101#styles"><h4>2. Beer Styles</h4></a></li>
 				</ol>
+				<!-- Insert button to take the user back to the main view -->
 				<a id="return" class="btn btn-lg" ng-href="#/brew">Return</a>
 				<hr />
 
+					<!-- Insert content from various sources re: beer terms and styles  -->
 				<section class="well" id="definitions">
 					<h2>Definitions</h2>
-
+					<!-- Repeat through the terms and their definitions.  -->
 					<p ng-repeat="define in definitions">
 						<b>Term:</b> {{define.term}} <br/>
 						<b>Definition:</b> {{define.defined}} <br/>
@@ -23,6 +28,8 @@
 				<hr />
 				<section class="well" id="styles">
 					<h2 class=>Beer Styles</h2>
+
+					<!-- Repeat through different style data: -->
 
 					<h3>Ales</h3>
 
