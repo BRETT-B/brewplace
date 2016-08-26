@@ -22,7 +22,7 @@ img {
     visibility: hidden;
   }
 }
-body {
+#site-wrapper, .beer101-container {
   margin: 0;
   background: url('../images/backdrop.jpg');
   background-size: cover;
