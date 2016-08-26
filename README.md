@@ -1,10 +1,11 @@
-![](http://www.brew.place/images/beerplace-logo.png?1)
+<img align="center" src="http://www.brew.place/images/beerplace-logo.png">
 
 # Brew.place
 
 A responsive single page application (SPA) that allows the user to search through local breweries. Not only is the application a resource to find out specific information on any given beer in the area, but it also allows the user to store beers that they like in a "Favorite Beers" list. Additionally, the site offers a wealth of general beer knowledge in what we call "Beer 101" in case you're too buzzed to figure out some terminology.
 
 ![](http://www.brew.place/images/readme.gif)
+<img align="center" src="http://www.brew.place/images/readme.gif">
 
 ## Features
 
@@ -18,7 +19,7 @@ A responsive single page application (SPA) that allows the user to search throug
 
 ## Languages & Libraries
 
-- Written in (un)complicated Angular.js, using the following libraries:
+Written in (un)complicated Angular.js, using the following libraries:
 * Bootstrap
 * UI Bootstrap
 * ngAnimate
@@ -26,7 +27,7 @@ A responsive single page application (SPA) that allows the user to search throug
 * ngStorage
 * Font Awesome
 
-## Designers / Developers / Data Muchers
+## Designers / Developers / Data Munchers
 
 [Keith Moore](https://github.com/kdavidmoore) - Dev with Super Powers
 
