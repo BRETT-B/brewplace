@@ -1,3 +1,4 @@
+// Custom directive for broken images
 brewApp.directive('errSrc', function() {
   return {
     link: function(scope, element, attrs) {

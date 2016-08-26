@@ -1,3 +1,4 @@
+// Custom directive for animated menu
 brewApp.directive('offCanvasMenu', function () {
     return {
         restrict: 'A',
