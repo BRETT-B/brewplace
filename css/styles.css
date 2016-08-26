@@ -6,7 +6,7 @@ img {
 @media screen and (max-width: 500px) { 
   div{width:70%;} 
 }
-@media screen and (max-device-width: 800px) {
+@media screen and (max-device-width: 200px) {
   html { 
     background: url('../images/background.png');
     background-size: cover;
@@ -58,33 +58,34 @@ video {
   font-size: 20px;
 }
 #welcome {
+  margin-top: 1vh;
   text-align: center;
   color: #000;
 }
 input[type="number"] {
-  width: 90px;
-  height: 30px;
-  font-size: 24px;
-  border: 1px solid black;
+  width: 3.5em;
+  height: 1.2em;
+  font-size: 2em;
+  border: 0.05em solid black;
   text-align: center;
 }
 #welcome h1 {
   color: #000;
-  font-size: 48px;
-  margin-top: 0;
-  letter-spacing: 5px;
+  font-size: 2.75em;
+  margin: auto;
+  letter-spacing: 0.15em;
 }
 #pause button { 
-  margin-top: 0;
+  
   display: block;
   width: 80%;
-  padding: 4px;
-  border: 1px solid #FFF; 
-  margin: 16px auto; 
-  font-size: 18px;
+  padding: 0.15em;
+  border: 0.05em solid #FFF; 
+  margin: 0.5em auto; 
+  font-size: 1em;
   background-color: #BFA674;
   color: #fff;
-  border-radius: 10px; 
+  border-radius: 0.3em; 
   cursor: pointer;
   transition: .3s background;
   outline: 0;
@@ -101,7 +102,7 @@ input[type="number"] {
 }
 
 #logo {
-  margin-top: 5%;
+  margin-top: 5vh;
 }
 #form-submit{
   position: relative;
