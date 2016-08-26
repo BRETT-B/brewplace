@@ -1,14 +1,16 @@
 <div ng-controller="verifyController">
-
+  <!-- video background runs for 30 seconds, no auto looping -->
   <video poster="images/background.png" id="background-video" ng-class="{ 'fade': fade }" playsinline autoplay muted>
     <source src="video/beer-background.mp4" type="video/mp4">
   </video>
 
   <div class="container">
       <div class="row">
+          <!-- Allow user to pause video background/also allows a replay, rather than loop -->
           <div id="pause">
               <button ng-click="pauseClick()">{{pauseBtn}}</button>
           </div>
+          <!-- Custom logo  -->
           <div id="logo" class="col-md-4 col-md-offset-4 well">
               <img class="img-responsive" src="images/beerplace-logo.png">    
           </div>
