@@ -9348,50 +9348,50 @@ function Beer(name, style, description, label, abv, brewery){
 	this.brewery = brewery;
 }
 
-createBeerList(eventideBeerData, 'Eventide', eventideBeers);
-// use underscore.js to sort beers array by name
-var eventideBeers = _.sortBy(eventideBeers, 'name');
+// createBeerList(eventideBeerData, 'Eventide', eventideBeers);
+// // use underscore.js to sort beers array by name
+// var eventideBeers = _.sortBy(eventideBeers, 'name');
 
-createBeerList(fiveSeasonsBeerData, '5 Seasons', fiveSeasonsBeers);
-// use underscore.js to sort beers array by name
-var fiveSeasonsBeers = _.sortBy(fiveSeasonsBeers, 'name');
+// createBeerList(fiveSeasonsBeerData, '5 Seasons', fiveSeasonsBeers);
+// // use underscore.js to sort beers array by name
+// var fiveSeasonsBeers = _.sortBy(fiveSeasonsBeers, 'name');
 
-createBeerList(maxLagersBeerData, 'Max Lager\'s Wood-Fired Grill', maxLagersBeers);
-// use underscore.js to sort beers array by name
-var maxLagersBeers = _.sortBy(maxLagersBeers, 'name');
+// createBeerList(maxLagersBeerData, 'Max Lager\'s Wood-Fired Grill', maxLagersBeers);
+// // use underscore.js to sort beers array by name
+// var maxLagersBeers = _.sortBy(maxLagersBeers, 'name');
 
-createBeerList(mondayNightBeerData, 'Monday Night', mondayNightBeers);
-// use underscore.js to sort beers array by name
-var mondayNightBeers = _.sortBy(mondayNightBeers, 'name');
+// createBeerList(mondayNightBeerData, 'Monday Night', mondayNightBeers);
+// // use underscore.js to sort beers array by name
+// var mondayNightBeers = _.sortBy(mondayNightBeers, 'name');
 
-createBeerList(oDempseysBeerData, 'O\'Dempsey\'s', oDempseysBeers);
-// use underscore.js to sort beers array by name
-var oDempseysBeers = _.sortBy(oDempseysBeers, 'name');
+// createBeerList(oDempseysBeerData, 'O\'Dempsey\'s', oDempseysBeers);
+// // use underscore.js to sort beers array by name
+// var oDempseysBeers = _.sortBy(oDempseysBeers, 'name');
 
-createBeerList(orpheusBeerData, 'Orpheus', orpheusBeers);
-// use underscore.js to sort beers array by name
-var orpheusBeers = _.sortBy(orpheusBeers, 'name');
+// createBeerList(orpheusBeerData, 'Orpheus', orpheusBeers);
+// // use underscore.js to sort beers array by name
+// var orpheusBeers = _.sortBy(orpheusBeers, 'name');
 
-createBeerList(parkTavernBeerData, 'Park Tavern', parkTavernBeers);
-// use underscore.js to sort beers array by name
-var parkTavernBeers = _.sortBy(parkTavernBeers, 'name');
+// createBeerList(parkTavernBeerData, 'Park Tavern', parkTavernBeers);
+// // use underscore.js to sort beers array by name
+// var parkTavernBeers = _.sortBy(parkTavernBeers, 'name');
 
-createBeerList(pontoonBeerData, 'Pontoon', pontoonBeers);
-// use underscore.js to sort beers array by name
-var pontoonBeers = _.sortBy(pontoonBeers, 'name');
+// createBeerList(pontoonBeerData, 'Pontoon', pontoonBeers);
+// // use underscore.js to sort beers array by name
+// var pontoonBeers = _.sortBy(pontoonBeers, 'name');
 
-createBeerList(redBrickBeerData, 'Red Brick', redBrickBeers);
-// use underscore.js to sort beers array by name
-var redBrickBeers = _.sortBy(redBrickBeers, 'name');
+// createBeerList(redBrickBeerData, 'Red Brick', redBrickBeers);
+// // use underscore.js to sort beers array by name
+// var redBrickBeers = _.sortBy(redBrickBeers, 'name');
 
-createBeerList(secondSelfBeerData, 'Second Self', secondSelfBeers);
-// use underscore.js to sort beers array by name
-var secondSelfBeers = _.sortBy(secondSelfBeers, 'name');
+// createBeerList(secondSelfBeerData, 'Second Self', secondSelfBeers);
+// // use underscore.js to sort beers array by name
+// var secondSelfBeers = _.sortBy(secondSelfBeers, 'name');
 
-createBeerList(sweetWaterBeerData, 'SweetWater', sweetWaterBeers);
-// use underscore.js to sort beers array by name
-var sweetWaterBeers = _.sortBy(sweetWaterBeers, 'name');
+// createBeerList(sweetWaterBeerData, 'SweetWater', sweetWaterBeers);
+// // use underscore.js to sort beers array by name
+// var sweetWaterBeers = _.sortBy(sweetWaterBeers, 'name');
 
-createBeerList(wreckingBarBeerData, 'Wrecking Bar Brewpub', wreckingBarBeers);
-// use underscore.js to sort beers array by name
-var wreckingBarBeers = _.sortBy(wreckingBarBeers, 'name');
+// createBeerList(wreckingBarBeerData, 'Wrecking Bar Brewpub', wreckingBarBeers);
+// // use underscore.js to sort beers array by name
+// var wreckingBarBeers = _.sortBy(wreckingBarBeers, 'name');
