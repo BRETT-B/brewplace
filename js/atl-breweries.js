@@ -658,4 +658,4 @@ function Brewery(id, name, lat, lon, streetAdd, city, state, zip, website, logo)
 
 createBreweryList(atlBreweryData, atlBreweries);
 // use underscore.js to sort breweries array by name
-var atlBreweries = _.sortBy(atlBreweries, 'name');
+// var atlBreweries = _.sortBy(atlBreweries, 'name');
