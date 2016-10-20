@@ -1,4 +1,4 @@
-// get rob's notes from github
+
 
 var connect = require('connect');
 var serveStatic = require('serve-static');
